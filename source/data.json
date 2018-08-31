@@ -1,0 +1,14 @@
+{
+  "lemonde.fr": {
+    "group": "Le Monde SAS",
+    "holders": [
+      "Xavier Niel"
+    ]
+  },
+  "example.com": {
+    "group": "Internet",
+    "holders": [
+      "Korben"
+    ]
+  }
+}
