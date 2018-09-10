@@ -5,7 +5,7 @@
 _Alpha version_
 
 Only two sites
- * [telerama.fr](https://www.telerama.fr)
+ * [lemonde.fr](https://www.lemonde.fr)
  * [example.com](https://example.com)
 
 ## Install
@@ -15,8 +15,9 @@ _Alpha version_
 1. Go to [the latest release](https://github.com/LeoColomb/capitext/releases/latest)
 2. Download `capitext.crx`
 3. Go to chrome://extensions
-4. Drag and drop file
-5. Install
+4. Enable dev mode
+5. Drag and drop file
+6. Install
 
 ## TODO
 
