@@ -2,11 +2,12 @@
 const path = require('path')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
+const ChromeExtensionReloader = require('webpack-chrome-extension-reloader')
 
 module.exports = () => ({
   devtool: 'sourcemap',
   entry: {
-    content: './source/content',
+    'content-script': './source/content',
     background: './source/background'
   },
   output: {
@@ -23,6 +24,7 @@ module.exports = () => ({
     ]
   },
   plugins: [
+    new ChromeExtensionReloader(),
     new CopyWebpackPlugin([
       {
         from: '*',

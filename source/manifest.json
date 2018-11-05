@@ -36,7 +36,7 @@
       ],
       "js": [
         "browser-polyfill.min.js",
-        "content.js"
+        "content-script.js"
       ],
       "css": [
         "content.css"
