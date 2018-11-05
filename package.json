@@ -3,7 +3,7 @@
   "scripts": {
     "lint": "eslint source/*.js && stylelint source/*.css",
     "lint:fix": "eslint --fix source/*.js && stylelint --fix source/*.css",
-    "test": "npm run lint && cross-env BABEL_ENV=testing ava && run-s build",
+    "test": "npm run lint && run-s build",
     "build": "webpack --mode=production",
     "watch": "webpack --mode=development --watch",
     "release:amo": "cd distribution && webext submit",

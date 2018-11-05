@@ -4,8 +4,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const ChromeExtensionReloader = require('webpack-chrome-extension-reloader')
 
-module.exports = () => ({
-  devtool: 'sourcemap',
+module.exports = (env, argv) => ({
+  devtool: 'source-map',
   entry: {
     'content-script': './source/content',
     background: './source/background'
@@ -23,8 +23,7 @@ module.exports = () => ({
       }
     ]
   },
-  plugins: [
-    new ChromeExtensionReloader(),
+  plugins: (argv.mode === 'development' ? [new ChromeExtensionReloader()] : []).concat([
     new CopyWebpackPlugin([
       {
         from: '*',
@@ -35,7 +34,7 @@ module.exports = () => ({
         from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
       }
     ])
-  ],
+  ]),
   optimization: {
     // Without this, function names will be garbled and enableFeature won't work
     concatenateModules: true,
