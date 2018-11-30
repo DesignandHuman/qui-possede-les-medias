@@ -36,49 +36,49 @@
     ]
   },
   "monde-diplomatique.fr": {
-   "group": "Le Monde",
+    "group": "Le Monde",
     "holders": [
       "Xavier Niel"
     ]
   },
   "telerama.fr": {
-   "group": "Le Monde",
+    "group": "Le Monde",
     "holders": [
       "Xavier Niel"
     ]
   },
   "courrierinternational.com": {
-   "group": "Le Monde",
+    "group": "Le Monde",
     "holders": [
       "Xavier Niel"
     ]
   },
   "lavie.fr": {
-   "group": "Le Monde",
+    "group": "Le Monde",
     "holders": [
       "Xavier Niel"
     ]
   },
   "huffingtonpost.fr": {
-   "group": "Le Monde & LNEI",
+    "group": "Le Monde & LNEI",
     "holders": [
       "Xavier Niel et Mathieu Pigasse"
     ]
   },
   "lesinrocks.com": {
-   "group": "LNEI",
+    "group": "LNEI",
     "holders": [
       "Mathieu Pigasse"
     ]
   },
   "nova.fr": {
-   "group": "LNEI",
+    "group": "LNEI",
     "holders": [
       "Mathieu Pigasse"
     ]
   },
   "vice.com": {
-   "group": "LNEI",
+    "group": "LNEI",
     "holders": [
       "Mathieu Pigasse"
     ]
@@ -96,577 +96,691 @@
     ]
   },
   "slate.fr": {
-   "group": "Lampsane ISA",
+    "group": "Lampsane ISA",
     "holders": [
       "Ariane Rothschild & Benjamin Rotschild"
     ]
-  },  "cnews.fr": {
-   "group": "Vivendi",
+  },
+  "cnews.fr": {
+    "group": "Vivendi",
     "holders": [
       "Vincent Bolloré"
     ]
-  },  "mycanal.fr": {
-	"group": "Vivendi",
+  },
+  "mycanal.fr": {
+    "group": "Vivendi",
     "holders": [
       "Vincent Bolloré"
     ]
-  },  "canal.fr": {
-	"group": "Vivendi",
+  },
+  "canal.fr": {
+    "group": "Vivendi",
     "holders": [
       "Vincent Bolloré"
     ]
-  },  "marianne.net": {
-   "group": "Czech Media Invest",
+  },
+  "marianne.net": {
+    "group": "Czech Media Invest",
     "holders": [
       "Daniel Křetínský"
     ]
-  },  "lepoint.fr": {
-   "group": "Artemis",
+  },
+  "lepoint.fr": {
+    "group": "Artemis",
     "holders": [
       "François Pinault"
     ]
-  },  "agefi.fr": {
-   "group": "Artemis",
+  },
+  "agefi.fr": {
+    "group": "Artemis",
     "holders": [
       "François Pinault"
     ]
-  },  "republicain-lorrain.fr": {
-   "group": "EBRA",
+  },
+  "republicain-lorrain.fr": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "lejsl.com": {
-   "group": "EBRA",
+  },
+  "lejsl.com": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "leprogres.fr": {
-   "group": "EBRA",
-    "holders": [
-      "Crédit Mutuel"
-     ]
-  }, "ledauphine.com": {
-   "group": "EBRA",
-    "holders": [
-      "Crédit Mutuel"
-     ]
-  }, "bienpublic.com": {
-   "group": "EBRA",
+  },
+  "leprogres.fr": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "lalsace.fr": {
-   "group": "EBRA",
+  },
+  "ledauphine.com": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "vosgesmatin.fr": {
-   "group": "EBRA",
+  },
+  "bienpublic.com": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "dna.fr": {
-   "group": "EBRA",
+  },
+  "lalsace.fr": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "estrepublicain.fr": {
-   "group": "EBRA",
+  },
+  "vosgesmatin.fr": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "jhm.fr": {
-   "group": "EBRA",
+  },
+  "dna.fr": {
+    "group": "EBRA",
     "holders": [
       "Crédit Mutuel"
     ]
-  },  "lepopulaire.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "estrepublicain.fr": {
+    "group": "EBRA",
+    "holders": [
+      "Crédit Mutuel"
+    ]
+  },
+  "jhm.fr": {
+    "group": "EBRA",
+    "holders": [
+      "Crédit Mutuel"
+    ]
+  },
+  "lepopulaire.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "lyonne.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "lyonne.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "lechorepublicain.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "lechorepublicain.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "leberry.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "leberry.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "lejdc.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "lejdc.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "lamontagne.fr": {
-   "group": "La Montagne Centre France",
+  },
+  "lamontagne.fr": {
+    "group": "La Montagne Centre France",
     "holders": [
       "La Fondation Varenne"
     ]
-  },  "larep.fr": {
-   "group": "La Montagne Centre France et NRCO",
+  },
+  "larep.fr": {
+    "group": "La Montagne Centre France et NRCO",
     "holders": [
       "La Fondation Varenne et la Famille Saint-Cricq"
     ]
-  },  "lanouvellerepublique.fr": {
-   "group": "NRCO",
+  },
+  "lanouvellerepublique.fr": {
+    "group": "NRCO",
     "holders": [
       "la Famille Saint-Cricq"
     ]
-  },  "centre-presse.fr": {
-   "group": "NRCO",
+  },
+  "centre-presse.fr": {
+    "group": "NRCO",
     "holders": [
       "la Famille Saint-Cricq"
     ]
-  },  "tvtours.fr": {
-   "group": "NRCO",
+  },
+  "tvtours.fr": {
+    "group": "NRCO",
     "holders": [
       "la Famille Saint-Cricq"
     ]
-  },  "larepubliquedespyrenees.fr": {
-   "group": "Sud Ouest",
+  },
+  "larepubliquedespyrenees.fr": {
+    "group": "Sud Ouest",
     "holders": [
       "Famille Lemoine"
     ]
-  },  "charentelibre.fr": {
-   "group": "Sud Ouest",
+  },
+  "charentelibre.fr": {
+    "group": "Sud Ouest",
     "holders": [
       "Famille Lemoine"
     ]
-  },  "dordognelibre.fr": {
-   "group": "Sud Ouest",
+  },
+  "dordognelibre.fr": {
+    "group": "Sud Ouest",
     "holders": [
       "Famille Lemoine"
-     ]
-  }, "sudouest.fr": {
-   "group": "Sud Ouest",
+    ]
+  },
+  "sudouest.fr": {
+    "group": "Sud Ouest",
     "holders": [
       "Famille Lemoine"
-     ]
-  }, "franceguyane.fr": {
-   "group": "Hersant Média",
-    "holders": [
-      "Philippe Hersant"
-     ]
-  }, "franceantilles.fr": {
+    ]
+  },
+  "franceguyane.fr": {
     "group": "Hersant Média",
     "holders": [
       "Philippe Hersant"
-     ]
-  }, "corsematin.com": {
-   "group": "La Provence",
+    ]
+  },
+  "franceantilles.fr": {
+    "group": "Hersant Média",
+    "holders": [
+      "Philippe Hersant"
+    ]
+  },
+  "corsematin.com": {
+    "group": "La Provence",
     "holders": [
       "Bernard Tapie"
-     ]
-  }, "laprovence.com": {
-   "group": "La Provence",
+    ]
+  },
+  "laprovence.com": {
+    "group": "La Provence",
     "holders": [
       "Bernard Tapie"
-     ]
-  }, "nicematin.com": {
-   "group": "Nice Matin",
+    ]
+  },
+  "nicematin.com": {
+    "group": "Nice Matin",
     "holders": [
       "Nethys"
-     ]
-  }, "paris-normandie.fr": {
-   "group": "SNIC",
+    ]
+  },
+  "paris-normandie.fr": {
+    "group": "SNIC",
     "holders": [
       "Jean-Louis Louvel"
-     ]
-  }, "tebeo.bzh": {
-   "group": "Télégramme",
+    ]
+  },
+  "tebeo.bzh": {
+    "group": "Télégramme",
     "holders": [
       "Edouard Coudurier"
-     ]
-  }, "tebesud.bzh": {
-   "group": "Télégramme",
+    ]
+  },
+  "tebesud.bzh": {
+    "group": "Télégramme",
     "holders": [
       "Edouard Coudurier"
-     ]
-  }, "lepoher.fr": {
-   "group": "Télégramme",
+    ]
+  },
+  "lepoher.fr": {
+    "group": "Télégramme",
     "holders": [
       "Edouard Coudurier"
-     ]
-  }, "letelegramme.fr": {
-   "group": "Télégramme",
+    ]
+  },
+  "letelegramme.fr": {
+    "group": "Télégramme",
     "holders": [
       "Edouard Coudurier"
-     ]
-  }, "nordeclair.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "nordeclair.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "courrier-picard.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "courrier-picard.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "lest-eclair.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "lest-eclair.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "nordlittoral.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "nordlittoral.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "lardennais.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "lardennais.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "lunion.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "lunion.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "aisnenouvelle.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "aisnenouvelle.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "lavoixdunord.fr": {
-   "group": "Rossel & Crédit Agricole",
+    ]
+  },
+  "lavoixdunord.fr": {
+    "group": "Rossel & Crédit Agricole",
     "holders": [
       "Famille Hurbain"
-     ]
-  }, "20minutes.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "20minutes.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "ladepeche.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "ladepeche.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "petitbleu.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "petitbleu.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "nrpyrenees.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "nrpyrenees.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "lindependant.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "lindependant.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "centrepresseaveyron.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "centrepresseaveyron.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "midilibre.fr": {
-   "group": "La Dépêche",
+    ]
+  },
+  "midilibre.fr": {
+    "group": "La Dépêche",
     "holders": [
       "Famille Baylet"
-     ]
-  }, "ouest-france.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "ouest-france.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "lemainelibre.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "lemainelibre.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "lapressedelamanche.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "lapressedelamanche.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "publihebdos.com": {
-   "group": "Association SDPH",
+    ]
+  },
+  "publihebdos.com": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "presseocean.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "presseocean.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "courrierdelouest.fr": {
-   "group": "Association SDPH",
+    ]
+  },
+  "courrierdelouest.fr": {
+    "group": "Association SDPH",
     "holders": [
       "Famille Hutin"
-     ]
-  }, "latribune.fr": {
-   "group": "Edi Invest",
+    ]
+  },
+  "latribune.fr": {
+    "group": "Edi Invest",
     "holders": [
       "Franck Julien"
-     ]
-  }, "notretemps.com": {
-   "group": "Bayard",
+    ]
+  },
+  "notretemps.com": {
+    "group": "Bayard",
     "holders": [
       "Les Augustins de l'Assomption"
-     ]
-  }, "pelerin.com": {
-   "group": "Bayard",
+    ]
+  },
+  "pelerin.com": {
+    "group": "Bayard",
     "holders": [
       "Les Augustins de l'Assomption"
-     ]
-  }, "la-croix.com": {
-   "group": "Bayard",
+    ]
+  },
+  "la-croix.com": {
+    "group": "Bayard",
     "holders": [
       "Les Augustins de l'Assomption"
-     ]
-  }, "parismatch.com": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "parismatch.com": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "virginradio.fr": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "virginradio.fr": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "gulli.fr": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "gulli.fr": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "rfm.fr": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "rfm.fr": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "europe1.fr": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "europe1.fr": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "lejdd.fr": {
-   "group": "Lagardère SCA",
+    ]
+  },
+  "lejdd.fr": {
+    "group": "Lagardère SCA",
     "holders": [
       "Arnaud Lagardère & Qatar Investment Authority"
-     ]
-  }, "nrj.fr": {
-   "group": "NRJ",
+    ]
+  },
+  "nrj.fr": {
+    "group": "NRJ",
     "holders": [
       "Famille Baudecroux"
-     ]
-  }, "nrj-play.fr": {
-   "group": "NRJ",
+    ]
+  },
+  "nrj-play.fr": {
+    "group": "NRJ",
     "holders": [
       "Famille Baudecroux"
-     ]
-  }, "cheriefm.fr": {
-   "group": "NRJ",
+    ]
+  },
+  "cheriefm.fr": {
+    "group": "NRJ",
     "holders": [
       "Famille Baudecroux"
-     ]
-  }, "nostalgie.fr": {
-   "group": "NRJ",
+    ]
+  },
+  "nostalgie.fr": {
+    "group": "NRJ",
     "holders": [
       "Famille Baudecroux"
-     ]
-  }, "rireetchansons.fr": {
-   "group": "NRJ",
+    ]
+  },
+  "rireetchansons.fr": {
+    "group": "NRJ",
     "holders": [
       "Famille Baudecroux"
-     ]
-  }, "funradio.fr": {
-   "group": "Bertelsman",
-    "holders": [
-      "Famille Mohn"
-     ]
-  }, "rtl.fr": {
-   "group": "Bertelsman",
-    "holders": [
-      "Famille Mohn"
-     ]
-  }, "rtl2.fr": {
-   "group": "Bertelsman",
-    "holders": [
-      "Famille Mohn"
-     ]
-  }, "m6.fr": {
-   "group": "Bertelsman",
-    "holders": [
-      "Famille Mohn"
-     ]
-  }, "6play.fr": {
-   "group": "Bertelsman",
-    "holders": [
-      "Famille Mohn"
-     ]
-  }, "capital.fr": {
+    ]
+  },
+  "funradio.fr": {
     "group": "Bertelsman",
     "holders": [
       "Famille Mohn"
-     ]
-  }, "hbr.org": {
+    ]
+  },
+  "rtl.fr": {
     "group": "Bertelsman",
     "holders": [
       "Famille Mohn"
-     ]
-  }, "vsd.fr": {
-   "group": "Ghosn Capital",
+    ]
+  },
+  "rtl2.fr": {
+    "group": "Bertelsman",
+    "holders": [
+      "Famille Mohn"
+    ]
+  },
+  "m6.fr": {
+    "group": "Bertelsman",
+    "holders": [
+      "Famille Mohn"
+    ]
+  },
+  "6play.fr": {
+    "group": "Bertelsman",
+    "holders": [
+      "Famille Mohn"
+    ]
+  },
+  "capital.fr": {
+    "group": "Bertelsman",
+    "holders": [
+      "Famille Mohn"
+    ]
+  },
+  "hbr.org": {
+    "group": "Bertelsman",
+    "holders": [
+      "Famille Mohn"
+    ]
+  },
+  "vsd.fr": {
+    "group": "Ghosn Capital",
     "holders": [
       "Georges Ghosn"
-     ]
-  }, "bfmtv.com": {
-   "group": "Altice",
+    ]
+  },
+  "bfmtv.com": {
+    "group": "Altice",
     "holders": [
       "Patrick Drahi"
-     ]
-  }, "numero23.fr": {
-   "group": "Altice",
+    ]
+  },
+  "numero23.fr": {
+    "group": "Altice",
     "holders": [
       "Patrick Drahi"
-     ]
-  }, "lexpress.fr": {
- "group": "Altice",
+    ]
+  },
+  "lexpress.fr": {
+    "group": "Altice",
     "holders": [
       "Patrick Drahi"
-     ]
-  }, "liberation.fr": {
- "group": "Altice",
+    ]
+  },
+  "liberation.fr": {
+    "group": "Altice",
     "holders": [
       "Patrick Drahi"
-     ]
-  }, "lesechos.fr": {
-   "group": "LVMH",
+    ]
+  },
+  "lesechos.fr": {
+    "group": "LVMH",
     "holders": [
       "Bernard Arnault"
-     ]
-  }, "radioclassique.fr": {
-   "group": "LVMH",
+    ]
+  },
+  "radioclassique.fr": {
+    "group": "LVMH",
     "holders": [
       "Bernard Arnault"
-     ]
-  }, "leparisien.fr": {
-   "group": "LVMH",
+    ]
+  },
+  "leparisien.fr": {
+    "group": "LVMH",
     "holders": [
       "Bernard Arnault"
-     ]
-  }, "aujourdhui-en-france.fr": {
-   "group": "LVMH",
+    ]
+  },
+  "aujourdhui-en-france.fr": {
+    "group": "LVMH",
     "holders": [
       "Bernard Arnault"
-     ]
-  }, "lopinion.fr": {
-   "group": "",
+    ]
+  },
+  "lopinion.fr": {
+    "group": "",
     "holders": [
       "Bernard Arnault, Nicolas Beytout, Famille Bettencourt, Claude Perdriel"
-     ]
-  }, "historia.fr": {
-   "group": "Sophia Publication",
+    ]
+  },
+  "historia.fr": {
+    "group": "Sophia Publication",
     "holders": [
       "Claude Perdriel"
-     ]
-  }, "lhistoire.fr": {
-   "group": "Sophia Publication",
+    ]
+  },
+  "lhistoire.fr": {
+    "group": "Sophia Publication",
     "holders": [
       "Claude Perdriel"
-     ]
-  }, "larecherche.fr": {
-   "group": "Sophia Publication",
+    ]
+  },
+  "larecherche.fr": {
+    "group": "Sophia Publication",
     "holders": [
       "Claude Perdriel"
-     ]
-  }, "nouveau-magazine-litteraire.com": {
-   "group": "Sophia Publication",
+    ]
+  },
+  "nouveau-magazine-litteraire.com": {
+    "group": "Sophia Publication",
     "holders": [
       "Claude Perdriel"
-     ]
-  }, "sciencesetavenir.fr": {
-   "group": "Perdriel",
+    ]
+  },
+  "sciencesetavenir.fr": {
+    "group": "Perdriel",
     "holders": [
       "Claude Perdriel"
-     ]
-  }, "challenges.fr": {
-   "group": "Sophia Publication",
+    ]
+  },
+  "challenges.fr": {
+    "group": "Sophia Publication",
     "holders": [
       "Claude Perdriel et la République Française"
-     ]
-  }, "fip.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "fip.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "franceculture.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "franceculture.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "franceinter.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "franceinter.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "francemusique.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "francemusique.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "francebleu.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "francebleu.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "mouv.fr": {
-   "group": "Radio France",
+    ]
+  },
+  "mouv.fr": {
+    "group": "Radio France",
     "holders": [
       "République Française"
-     ]
-  }, "francetvinfo.fr": {
-   "group": "Radio France et France Télévision",
+    ]
+  },
+  "francetvinfo.fr": {
+    "group": "Radio France et France Télévision",
     "holders": [
       "République Française"
-     ]
-  }, "france.tv": {
-   "group": "France Télévision",
+    ]
+  },
+  "france.tv": {
+    "group": "France Télévision",
     "holders": [
       "République Française"
-     ]
-  }, "tv5monde.com": {
-   "group": "France Médias Monde",
+    ]
+  },
+  "tv5monde.com": {
+    "group": "France Médias Monde",
     "holders": [
       "République Française"
-     ]
-  }, "france24.com": {
-   "group": "France Médias Monde",
+    ]
+  },
+  "france24.com": {
+    "group": "France Médias Monde",
     "holders": [
       "République Française"
-     ]
-  }, "rfi.fr": {
-   "group": "France Médias Monde",
+    ]
+  },
+  "rfi.fr": {
+    "group": "France Médias Monde",
     "holders": [
       "République Française"
-     ]
-  }, "mc-doualiya.com": {
-   "group": "France Médias Monde",
+    ]
+  },
+  "mc-doualiya.com": {
+    "group": "France Médias Monde",
     "holders": [
       "République Française"
-     ]
-  }, "lcp.fr": {
-   "group": "",
+    ]
+  },
+  "lcp.fr": {
+    "group": "",
     "holders": [
       "République Française"
-     ]
-  }, "arte.tv": {
-   "group": "Arte France & ARD ZDF",
+    ]
+  },
+  "arte.tv": {
+    "group": "Arte France & ARD ZDF",
     "holders": [
       "République Française et République Fédérale d'Allemagne"
-     ]
-  }, "example.com": {
-   "group": "LVMH",
+    ]
+  },
+  "example.com": {
+    "group": "LVMH",
     "holders": [
       "Bernard Arnault"
     ]
