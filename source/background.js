@@ -3,9 +3,9 @@ import { isEmpty } from './libs/utils'
 
 localforage.setDriver([localforage.INDEXEDDB, localforage.WEBSQL])
 
-browser.runtime.onInstalled.addListener(event => {
+browser.runtime.onInstalled.addListener(async event => {
   if (event.reason === 'install') {
-    const data = require('./data.json')
+    const { default: data } = await import(/* webpackChunkName: "data" */ './data.json')
     for (let site in data) {
       localforage.setItem(site, data[site])
     }

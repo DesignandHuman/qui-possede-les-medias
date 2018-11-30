@@ -19,7 +19,12 @@ module.exports = (env, argv) => ({
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            plugins: ['@babel/plugin-syntax-dynamic-import']
+          }
+        }
       }
     ]
   },
@@ -28,7 +33,7 @@ module.exports = (env, argv) => ({
       {
         from: '*',
         context: 'source',
-        ignore: '*.js'
+        ignore: ['*.js', 'data.json']
       },
       {
         from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
