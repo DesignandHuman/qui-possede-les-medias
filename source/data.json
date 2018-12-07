@@ -62,7 +62,8 @@
   "huffingtonpost.fr": {
     "group": "Le Monde & LNEI",
     "holders": [
-      "Xavier Niel et Mathieu Pigasse"
+      "Xavier Niel",
+      "Mathieu Pigasse"
     ]
   },
   "lesinrocks.com": {
@@ -98,7 +99,8 @@
   "slate.fr": {
     "group": "Lampsane ISA",
     "holders": [
-      "Ariane Rothschild & Benjamin Rotschild"
+      "Ariane Rothschild",
+      "Benjamin Rotschild"
     ]
   },
   "cnews.fr": {
@@ -236,25 +238,26 @@
   "larep.fr": {
     "group": "La Montagne Centre France et NRCO",
     "holders": [
-      "La Fondation Varenne et la Famille Saint-Cricq"
+      "La Fondation Varenne",
+      "La Famille Saint-Cricq"
     ]
   },
   "lanouvellerepublique.fr": {
     "group": "NRCO",
     "holders": [
-      "la Famille Saint-Cricq"
+      "La Famille Saint-Cricq"
     ]
   },
   "centre-presse.fr": {
     "group": "NRCO",
     "holders": [
-      "la Famille Saint-Cricq"
+      "La Famille Saint-Cricq"
     ]
   },
   "tvtours.fr": {
     "group": "NRCO",
     "holders": [
-      "la Famille Saint-Cricq"
+      "La Famille Saint-Cricq"
     ]
   },
   "larepubliquedespyrenees.fr": {
@@ -494,37 +497,43 @@
   "parismatch.com": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "virginradio.fr": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "gulli.fr": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "rfm.fr": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "europe1.fr": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "lejdd.fr": {
     "group": "Lagardère SCA",
     "holders": [
-      "Arnaud Lagardère & Qatar Investment Authority"
+      "Arnaud Lagardère",
+      "Qatar Investment Authority"
     ]
   },
   "nrj.fr": {
@@ -656,7 +665,10 @@
   "lopinion.fr": {
     "group": "",
     "holders": [
-      "Bernard Arnault, Nicolas Beytout, Famille Bettencourt, Claude Perdriel"
+      "Bernard Arnault",
+      "Nicolas Beytout",
+      "Famille Bettencourt",
+      "Claude Perdriel"
     ]
   },
   "historia.fr": {
@@ -692,13 +704,14 @@
   "challenges.fr": {
     "group": "Sophia Publication",
     "holders": [
-      "Claude Perdriel et la République Française"
+      "Claude Perdriel",
+      "La République Française"
     ]
   },
   "fip.fr": {
     "group": "Radio France",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "franceculture.fr": {
@@ -710,73 +723,74 @@
   "franceinter.fr": {
     "group": "Radio France",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "francemusique.fr": {
     "group": "Radio France",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "francebleu.fr": {
     "group": "Radio France",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "mouv.fr": {
     "group": "Radio France",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "francetvinfo.fr": {
     "group": "Radio France et France Télévision",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "france.tv": {
     "group": "France Télévision",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "tv5monde.com": {
     "group": "France Médias Monde",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "france24.com": {
     "group": "France Médias Monde",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "rfi.fr": {
     "group": "France Médias Monde",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "mc-doualiya.com": {
     "group": "France Médias Monde",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "lcp.fr": {
     "group": "",
     "holders": [
-      "République Française"
+      "La République Française"
     ]
   },
   "arte.tv": {
     "group": "Arte France & ARD ZDF",
     "holders": [
-      "République Française et République Fédérale d'Allemagne"
+      "La République Française",
+      "La République Fédérale d'Allemagne"
     ]
   },
   "example.com": {
