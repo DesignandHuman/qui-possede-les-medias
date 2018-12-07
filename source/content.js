@@ -6,6 +6,17 @@ import { safeElementReady, isEmpty } from './libs/utils'
 // Add globals for easier debugging
 window.select = select
 
+function dataToString(data) {
+  if (isEmpty(data)) {
+    return  ''
+  }
+  if (!Array.isArray(data)) {
+    return data
+  }
+  const lastEl = data.pop()
+  return [data.join(', '), lastEl].join(' et ')
+}
+
 async function init () {
   const boxData = await browser.runtime.sendMessage({
     action: 'request',
@@ -22,8 +33,8 @@ async function init () {
   const box = document.createElement('p')
   box.className = 'capitext-box'
   box.innerHTML = `Ce média appartient
-      ${boxData['group'] ? 'au groupe ' + boxData['group'] + ' et' : ''}
-      aux actionnaires ${boxData['holders'].join(', ')}.`
+      aux groupes ${dataToString(boxData['group'])}
+      et aux actionnaires ${dataToString(boxData['holders'])}.`
   select('body').append(box)
 }
 
