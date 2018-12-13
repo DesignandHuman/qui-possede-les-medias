@@ -7,14 +7,7 @@ import { safeElementReady, isEmpty } from './libs/utils'
 window.select = select
 
 function dataToString(data) {
-  if (isEmpty(data)) {
-    return  ''
-  }
-  if (!Array.isArray(data)) {
-    return data
-  }
-  const lastEl = data.pop()
-  return [data.join(', '), lastEl].join(' et ')
+  return data.reduce((acc, entity) => entity.link ? `${acc} <a href="${entity.link}">${entity.name}</a>,` : `${acc} ${entity.name},`, '')
 }
 
 async function init () {
@@ -32,9 +25,7 @@ async function init () {
 
   const box = document.createElement('p')
   box.className = 'capitext-box'
-  box.innerHTML = `Ce média appartient
-      aux groupes ${dataToString(boxData['group'])}
-      et aux actionnaires ${dataToString(boxData['holders'])}.`
+  box.innerHTML = `Ce média appartient à ${dataToString(boxData)}.`
   select('body').append(box)
 }
 

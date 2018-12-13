@@ -37,4 +37,3 @@ _Alpha version_
 - [ ] Full name and description
 - [ ] Logo and styles ([example](https://github.com/sindresorhus/refined-github/tree/master/media))
 - [ ] Parse data from https://github.com/mdiplo/Medias_francais
-- [ ] Add extra data (ref)

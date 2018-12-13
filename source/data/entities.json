@@ -1,0 +1,177 @@
+{
+  "Xavier Niel": {
+    "name": "Xavier Niel",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Xavier_Niel"
+  },
+  "Famille Bouygues": {
+    "name": "Famille Bouygues",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Martin_Bouygues"
+  },
+  "Famille Dassault": {
+    "name": "Famille Dassault",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Serge_Dassault"
+  },
+  "Mathieu Pigasse": {
+    "name": "Mathieu Pigasse",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse"
+  },
+  "Iskandar Safa": {
+    "name": "Iskandar Safa",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Iskandar_Safa"
+  },
+  "Ariane Rothschild": {
+    "name": "Ariane Rothschild",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Ariane_de_Rothschild"
+  },
+  "Benjamin de Rothschild": {
+    "name": "Benjamin de Rothschild",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Benjamin_de_Rothschild"
+  },
+  "Vincent Bolloré": {
+    "name": "Vincent Bolloré",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Vincent_Bollor%C3%A9"
+  },
+  "Daniel Křetínský": {
+    "name": "Daniel Křetínský",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Daniel_K%C5%99et%C3%ADnsk%C3%BD"
+  },
+  "François Pinault": {
+    "name": "François Pinault",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Pinault"
+  },
+  "Crédit Mutuel": {
+    "name": "Crédit Mutuel",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Cr%C3%A9dit_mutuel"
+  },
+  "La Fondation Varenne": {
+    "name": "La Fondation Varenne",
+    "type": "group",
+    "link": "https://duckduckgo.com/?q=Fondation+Varenne"
+  },
+  "La Famille Saint-Cricq": {
+    "name": "La Famille Saint-Cricq",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Nathalie_Saint-Cricq"
+  },
+  "Philippe Hersant": {
+    "name": "Philippe Hersant",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Philippe_Hersant_(patron_de_presse)"
+  },
+  "Bernard Tapie": {
+    "name": "Bernard Tapie",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Bernard_Tapie"
+  },
+  "Nethys": {
+    "name": "Nethys",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/Nethys"
+  },
+  "Jean-Louis Louvel": {
+    "name": "Jean-Louis Louvel",
+    "type": "holder",
+    "link": "https://duckduckgo.com/?q=Jean-Louis+Louvel"
+  },
+  "Edouard Coudurier": {
+    "name": "Edouard Coudurier",
+    "type": "holder",
+    "link": "https://duckduckgo.com/?q=%22Edouard+Coudurier%22"
+  },
+  "Famille Hurbain": {
+    "name": "Famille Hurbain",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Patrick_Hurbain"
+  },
+  "Famille Hutin": {
+    "name": "Famille Hutin",
+    "type": "holder",
+    "link": "https://duckduckgo.com/?q=%22Famille+Hutin%22"
+  },
+  "Famille Baylet": {
+    "name": "Famille Baylet",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Jean-Michel_Baylet"
+  },
+  "Franck Julien": {
+    "name": "Franck Julien",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Franck_Julien"
+  },
+  "Les Augustins de l'Assomption": {
+    "name": "Les Augustins de l'Assomption",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/Augustins_de_l%27Assomption"
+  },
+  "Arnaud Lagardère": {
+    "name": "Arnaud Lagardère",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Arnaud_Lagard%C3%A8re"
+  },
+  "Qatar Investment Authority": {
+    "name": "Qatar Investment Authority",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/Qatar_Investment_Authority"
+  },
+  "Famille Baudecroux": {
+    "name": "Famille Baudecroux",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Jean-Paul_Baudecroux"
+  },
+  "Famille Mohn": {
+    "name": "Famille Mohn",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Famille_Mohn"
+  },
+  "Georges Ghosn": {
+    "name": "Georges Ghosn",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Georges_Ghosn"
+  },
+  "Patrick Drahi": {
+    "name": "Patrick Drahi",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Patrick_Drahi"
+  },
+  "Bernard Arnault": {
+    "name": "Bernard Arnault",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Bernard_Arnault"
+  },
+  "Nicolas Beytout": {
+    "name": "Nicolas Beytout",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Nicolas_Beytout"
+  },
+  "Famille Bettencourt": {
+    "name": "Famille Bettencourt",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Famille_Bettencourt"
+  },
+  "Claude Perdriel": {
+    "name": "Claude Perdriel",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Claude_Perdriel"
+  },
+  "La République Française": {
+    "name": "La République Française",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9publique_Fran%C3%A7aise"
+  },
+  "La République Fédérale d'Allemagne": {
+    "name": "La République Fédérale d'Allemagne",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/Allemagne"
+  }
+}
