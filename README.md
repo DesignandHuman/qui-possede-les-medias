@@ -1,5 +1,9 @@
 # CapitExt
 
+> Description
+
+[![Build Status](https://travis-ci.com/DesignandHuman/capitext.svg?branch=master)](https://travis-ci.com/DesignandHuman/capitext)
+
 ## About
 
 
@@ -8,11 +12,10 @@
 _Alpha version_
 
 1. Go to [the latest release](https://github.com/DesignandHuman/capitext/releases/latest)
-2. Download `capitext.crx`
-3. Go to chrome://extensions
+2. Download `capitext.zip`
+3. Unzip
 4. Enable dev mode
-5. Drag and drop file
-6. Install
+5. Load as unpacked extension
 
 ## Development
 
@@ -36,4 +39,3 @@ _Alpha version_
 
 - [ ] Full name and description
 - [ ] Logo and styles ([example](https://github.com/sindresorhus/refined-github/tree/master/media))
-- [ ] Parse data from https://github.com/mdiplo/Medias_francais
