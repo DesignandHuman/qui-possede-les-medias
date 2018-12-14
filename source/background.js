@@ -1,5 +1,5 @@
 import localforage from 'localforage'
-import { isEmpty } from './libs/utils'
+import { isEmpty, renderBadge } from './libs/utils'
 
 localforage.setDriver([localforage.INDEXEDDB, localforage.WEBSQL])
 
@@ -24,7 +24,7 @@ browser.runtime.onInstalled.addListener(async event => {
   }
 })
 
-browser.runtime.onMessage.addListener(async message => {
+browser.runtime.onMessage.addListener(async (message, sender) => {
   if (!message || message.action !== 'request') {
     return
   }
@@ -32,7 +32,8 @@ browser.runtime.onMessage.addListener(async message => {
   if (isEmpty(site)) {
     return
   }
-  // await browser.tabs.insertCSS({ file: 'content.css' })
-  let dad = await Promise.all(site.map(async name => ((await entitiesStore.getItem(name)) || {name})))
-  return dad
+
+  renderBadge(site.length.toString() || '', sender.tab.id)
+  // await browser.tabs.insertCSS(sender.tab.id, { file: 'content.css' })
+  return Promise.all(site.map(async name => ((await entitiesStore.getItem(name)) || {name})))
 })

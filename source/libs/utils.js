@@ -17,3 +17,7 @@ export const safeElementReady = selector => {
 }
 
 export const isEmpty = variable => (!variable || variable === null || variable === {})
+
+export const renderBadge = (text, tabId) => {
+	browser.browserAction.setBadgeText({text, tabId})
+}
