@@ -5,7 +5,9 @@ test('isEmpty', t => {
   t.true(utils.isEmpty(''))
   t.true(utils.isEmpty(null))
   t.true(utils.isEmpty({}))
+  t.true(utils.isEmpty([]))
   t.false(utils.isEmpty('f'))
+  t.false(utils.isEmpty(['f']))
   t.false(utils.isEmpty({f: false}))
 })
 

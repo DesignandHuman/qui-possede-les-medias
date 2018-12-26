@@ -1,4 +1,4 @@
-export const isEmpty = variable => (!variable || Object.getOwnPropertyNames(variable).length === 0)
+export const isEmpty = variable => (!variable || variable.length === 0 || Object.getOwnPropertyNames(variable).length === 0)
 
 export const renderData = (data) => data
   .filter(entity => entity.type === 'holder')
