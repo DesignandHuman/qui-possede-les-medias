@@ -1,0 +1,14 @@
+/* link */
+.capitext-box a:link,
+.capitext-box a:visited,
+.capitext-box a:active,
+.capitext-box a:focus {
+  text-decoration: underline;
+  color: #edb200;
+}
+
+/* mouse over link */
+.capitext-box a:hover {
+  text-decoration: none;
+  color: #edb200;
+}
