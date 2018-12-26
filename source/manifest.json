@@ -2,7 +2,7 @@
   "name": "CapitExt",
   "version": "0.0.0",
   "description": "Who own what",
-  "homepage_url": "https://github.com/LeoColomb/capitext",
+  "homepage_url": "https://github.com/DesignandHuman/capitext",
   "manifest_version": 2,
   "minimum_chrome_version": "58",
   "applications": {
@@ -11,6 +11,18 @@
       "strict_min_version": "55.0"
     }
   },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "optional_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
   "background": {
     "scripts": [
       "browser-polyfill.min.js",
@@ -18,21 +30,14 @@
     ],
     "persistent": false
   },
-  "permissions": [
-    "activeTab"
-  ],
-  "optional_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
-  "icons": {
-    "128": "icon.png"
-  },
 	"browser_action": {
 		"default_icon": "icon.png",
     "default_popup": "popup.html",
     "browser_style": true
 	},
+  "icons": {
+    "128": "icon.png"
+  },
   "content_scripts": [
     {
       "matches": [

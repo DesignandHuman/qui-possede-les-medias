@@ -1,0 +1,50 @@
+body {
+  min-width: 430px; /* Required to size the Browser Action popup */
+}
+:root {
+  --github-green: #28a745;
+  --github-red: #cb2431;
+}
+input[type='checkbox'] {
+  vertical-align: -0.16em;
+}
+:root hr {
+  margin-right: -17px;
+  margin-left: -17px;
+  border: none;
+  border-bottom: solid #d3d3d3 1px;
+}
+
+/* Increase spacing between sections */
+h2 ~ h2 {
+  margin-top: 2em;
+}
+
+/* Firefox only */
+.only-firefox {
+  display: none;
+}
+@-moz-document url-prefix('') {
+  :root h2 {
+    font-weight: normal;
+  }
+  :root body {
+    font: message-box, sans-serif;
+  }
+  :root hr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body > :not(hr) {
+    margin-left: 6px;
+  }
+  input[type='checkbox'] {
+    vertical-align: -41%;
+  }
+  .no-firefox {
+    display: none;
+  }
+  .only-firefox {
+    display: block;
+  }
+}
