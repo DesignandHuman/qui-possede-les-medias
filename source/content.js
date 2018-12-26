@@ -1,21 +1,14 @@
 import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
 
-import { safeElementReady, isEmpty } from './libs/utils'
+import { safeElementReady, isEmpty, renderData } from './libs/utils'
 
 // Add globals for easier debugging
 window.select = select
 
-function dataToString(data) {
-  return data
-    .filter(entity => entity.type === 'holder')
-    .map(entity => entity.link ? `<a href="${entity.link}" rel="noopener nofollow" target="_blank">${entity.name}</a>` : entity.name)
-    .join(', ')
-}
-
 async function init () {
   const boxData = await browser.runtime.sendMessage({
-    action: 'request',
+    action: 'content',
     hostname: location.hostname.split('.').slice(-2).join('.')
   })
 
@@ -37,7 +30,7 @@ async function init () {
 
   const text = document.createElement('p')
   text.className = 'capitext-text'
-  text.innerHTML = `Ce média appartient à ${dataToString(boxData)}.`
+  text.innerHTML = `Ce média appartient à ${renderData(boxData)}.`
   box.appendChild(text)
 
   select('body').append(box)

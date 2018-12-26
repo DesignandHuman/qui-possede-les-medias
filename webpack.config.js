@@ -8,7 +8,8 @@ module.exports = (env, argv) => ({
   devtool: 'source-map',
   entry: {
     'content-script': './source/content',
-    background: './source/background'
+    background: './source/background',
+    popup: './source/popup'
   },
   output: {
     path: path.join(__dirname, 'distribution'),

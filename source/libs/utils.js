@@ -16,8 +16,13 @@ export const safeElementReady = selector => {
   return waiting.catch(() => null)
 }
 
-export const isEmpty = variable => (!variable || variable === null || variable === {})
+export const isEmpty = variable => (!variable || variable === {})
 
 export const renderBadge = (text, tabId) => {
 	browser.browserAction.setBadgeText({text, tabId})
 }
+
+export const renderData = (data) => data
+  .filter(entity => entity.type === 'holder')
+  .map(entity => entity.link ? `<a href="${entity.link}" rel="noopener noreferrer" target="_blank">${entity.name}</a>` : entity.name)
+  .join(', ')

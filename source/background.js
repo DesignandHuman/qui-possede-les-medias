@@ -10,7 +10,7 @@ browser.runtime.onInstalled.addListener(async event => {
   if (event.reason === 'install') {
     const { default: data } = await import(/* webpackChunkName: "sites" */ './data/sites.json')
     for (const site in data) {
-      sitesStore.setItem(site, data[site])
+      await sitesStore.setItem(site, data[site])
     }
   }
 })
@@ -19,13 +19,13 @@ browser.runtime.onInstalled.addListener(async event => {
   if (event.reason === 'install') {
     const { default: data } = await import(/* webpackChunkName: "entities" */ './data/entities.json')
     for (const ref in data) {
-      entitiesStore.setItem(ref, data[ref])
+      await entitiesStore.setItem(ref, data[ref])
     }
   }
 })
 
 browser.runtime.onMessage.addListener(async (message, sender) => {
-  if (!message || message.action !== 'request') {
+  if (!message) {
     return
   }
   const site = await sitesStore.getItem(message.hostname)
@@ -33,7 +33,9 @@ browser.runtime.onMessage.addListener(async (message, sender) => {
     return
   }
 
-  renderBadge(site.length.toString() || '', sender.tab.id)
+  if (message.action === 'content') {
+    renderBadge(site.length.toString() || '', sender.tab.id)
+  }
   // await browser.tabs.insertCSS(sender.tab.id, { file: 'content.css' })
   return Promise.all(site.map(async name => ((await entitiesStore.getItem(name)) || {name})))
 })
