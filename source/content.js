@@ -1,7 +1,8 @@
 import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
 
-import { safeElementReady, isEmpty, renderData } from './libs/utils'
+import { safeElementReady } from './libs/document'
+import { isEmpty, renderData } from './libs/utils'
 
 // Add globals for easier debugging
 window.select = select

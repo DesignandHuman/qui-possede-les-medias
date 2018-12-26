@@ -1,5 +1,6 @@
 import localforage from 'localforage'
-import { isEmpty, renderBadge } from './libs/utils'
+import { isEmpty } from './libs/utils'
+import { renderBadge } from './libs/browser'
 
 localforage.setDriver([localforage.INDEXEDDB, localforage.WEBSQL])
 

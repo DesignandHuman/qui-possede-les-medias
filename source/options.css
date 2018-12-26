@@ -1,13 +1,16 @@
 body {
   min-width: 430px; /* Required to size the Browser Action popup */
 }
+
 :root {
   --github-green: #28a745;
   --github-red: #cb2431;
 }
+
 input[type='checkbox'] {
   vertical-align: -0.16em;
 }
+
 :root hr {
   margin-right: -17px;
   margin-left: -17px;
@@ -24,26 +27,33 @@ h2 ~ h2 {
 .only-firefox {
   display: none;
 }
+
 @-moz-document url-prefix('') {
   :root h2 {
     font-weight: normal;
   }
+
   :root body {
     font: message-box, sans-serif;
   }
+
   :root hr {
     margin-left: 0;
     margin-right: 0;
   }
+
   body > :not(hr) {
     margin-left: 6px;
   }
+
   input[type='checkbox'] {
     vertical-align: -41%;
   }
+
   .no-firefox {
     display: none;
   }
+
   .only-firefox {
     display: block;
   }
