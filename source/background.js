@@ -10,8 +10,8 @@ const entitiesStore = localforage.createInstance({name: "entities"})
 browser.runtime.onInstalled.addListener(async event => {
   if (event.reason === 'install') {
     const { default: data } = await import(/* webpackChunkName: "sites" */ './data/sites.json')
-    for (const site in data) {
-      await sitesStore.setItem(site, data[site])
+    for (const item in data) {
+      await sitesStore.setItem(item, data[item])
     }
   }
 })
@@ -19,14 +19,14 @@ browser.runtime.onInstalled.addListener(async event => {
 browser.runtime.onInstalled.addListener(async event => {
   if (event.reason === 'install') {
     const { default: data } = await import(/* webpackChunkName: "entities" */ './data/entities.json')
-    for (const ref in data) {
-      await entitiesStore.setItem(ref, data[ref])
+    for (const item of data) {
+      await entitiesStore.setItem(item.name, item)
     }
   }
 })
 
 browser.runtime.onMessage.addListener(async (message, sender) => {
-  if (!message) {
+  if (!message || !message.action) {
     return
   }
   const site = await sitesStore.getItem(message.hostname)
@@ -36,7 +36,8 @@ browser.runtime.onMessage.addListener(async (message, sender) => {
 
   if (message.action === 'content') {
     renderBadge(site.length.toString() || '', sender.tab.id)
+    // await browser.tabs.insertCSS(sender.tab.id, { file: 'content.css' })
   }
-  // await browser.tabs.insertCSS(sender.tab.id, { file: 'content.css' })
+
   return Promise.all(site.map(async name => ((await entitiesStore.getItem(name)) || {name})))
 })
