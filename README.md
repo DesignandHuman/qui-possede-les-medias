@@ -7,15 +7,16 @@
 ## About
 
 
+
 ## Install
 
-_Alpha version_
+[link-cws]: https://chrome.google.com/webstore/detail/capitext/id "Version published on Chrome Web Store"
+[link-amo]: https://addons.mozilla.org/firefox/addon/capitext/ "Version published on Mozilla Add-ons"
 
-1. Go to [the latest release](https://github.com/DesignandHuman/capitext/releases/latest)
-2. Download `capitext.zip`
-3. Unzip
-4. Enable dev mode
-5. Load as unpacked extension
+- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/id.svg">][link-cws]
+- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/capitext.svg">][link-amo]
+- **Opera** extension: Use [this Opera extension](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) to install the Chrome version.
+
 
 ## Development
 
@@ -35,7 +36,7 @@ _Alpha version_
    npm run start
    ```
 
-## TODO
 
-- [ ] Full name and description
-- [ ] Logo and styles ([example](https://github.com/sindresorhus/refined-github/tree/master/media))
+## License
+
+MIT © Design & Human/Geoffrey Dorne & Léo Colombaro
