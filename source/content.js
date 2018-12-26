@@ -26,9 +26,20 @@ async function init () {
   await safeElementReady('body')
   document.documentElement.classList.add('capitext')
 
-  const box = document.createElement('p')
+  const box = document.createElement('div')
   box.className = 'capitext-box'
-  box.innerHTML = `Ce média appartient à ${dataToString(boxData)}.`
+
+  const button = document.createElement('button')
+  button.className = 'capitext-button'
+  button.innerHTML = '✖'
+  button.addEventListener('click', (e) => e.currentTarget.parentNode.remove())
+  box.appendChild(button)
+
+  const text = document.createElement('p')
+  text.className = 'capitext-text'
+  text.innerHTML = `Ce média appartient à ${dataToString(boxData)}.`
+  box.appendChild(text)
+
   select('body').append(box)
 }
 
