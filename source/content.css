@@ -1,10 +1,45 @@
 .capitext .capitext-box {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  top: 0;
+  right: 0;
   width: 100%;
-  padding: 1rem;
-  background: red;
+  padding: 2rem;
+  background: black;
   color: white;
   z-index: 9999999999;
+  opacity: 0.9;
+  text-align: right;
+	width: auto;
+	margin:2rem;
+	border-radius: 0.2em;
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.27);
+-moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.27);
+box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.27);
+	
+}
+
+/* unvisited link */
+.capitext-box a:link {
+  text-decoration: underline;
+	color: #edb200;
+}
+
+/* visited link */
+.capitext-box a:visited {
+    text-decoration: underline;
+	color: #edb200;
+}
+
+/* mouse over link */
+.capitext-box a:hover {
+  text-decoration: none;
+	color: #edb200;
+}
+
+/* selected link */
+.capitext-box a:active {
+  text-decoration: underline;
+	color: #edb200;
 }
