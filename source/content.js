@@ -7,7 +7,10 @@ import { safeElementReady, isEmpty } from './libs/utils'
 window.select = select
 
 function dataToString(data) {
-  return data.reduce((acc, entity) => entity.link ? `${acc} <a href="${entity.link}">${entity.name}</a>,` : `${acc} ${entity.name},`, '')
+  return data
+    .filter(entity => entity.type === 'holder')
+    .map(entity => entity.link ? `<a href="${entity.link}" rel="noopener nofollow" target="_blank">${entity.name}</a>` : entity.name)
+    .join(', ')
 }
 
 async function init () {
