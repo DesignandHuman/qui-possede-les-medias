@@ -5,12 +5,12 @@
     "link": "https://fr.wikipedia.org/wiki/Xavier_Niel"
   },
   {
-    "name": "Famille Bouygues",
+    "name": "la famille Bouygues",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Martin_Bouygues"
   },
   {
-    "name": "Famille Dassault",
+    "name": "la famille Dassault",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Serge_Dassault"
   },
@@ -55,12 +55,12 @@
     "link": "https://fr.wikipedia.org/wiki/Cr%C3%A9dit_mutuel"
   },
   {
-    "name": "La Fondation Varenne",
+    "name": "la Fondation Varenne",
     "type": "group",
     "link": "https://duckduckgo.com/?q=Fondation+Varenne"
   },
   {
-    "name": "La Famille Saint-Cricq",
+    "name": "la famille Saint-Cricq",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Nathalie_Saint-Cricq"
   },
@@ -90,17 +90,17 @@
     "link": "https://duckduckgo.com/?q=%22Edouard+Coudurier%22"
   },
   {
-    "name": "Famille Hurbain",
+    "name": "la famille Hurbain",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Patrick_Hurbain"
   },
   {
-    "name": "Famille Hutin",
+    "name": "la famille Hutin",
     "type": "holder",
     "link": "https://duckduckgo.com/?q=%22Famille+Hutin%22"
   },
   {
-    "name": "Famille Baylet",
+    "name": "la famille Baylet",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Jean-Michel_Baylet"
   },
@@ -110,14 +110,14 @@
     "link": "https://fr.wikipedia.org/wiki/Franck_Julien"
   },
   {
-    "name": "Les Augustins de l'Assomption",
+    "name": "l'ensemble des Augustins de l'Assomption",
     "type": "group",
     "link": "https://fr.wikipedia.org/wiki/Augustins_de_l%27Assomption"
   },
   {
-    "name": "Arnaud Lagardère",
+    "name": "Arnaud lagardère",
     "type": "holder",
-    "link": "https://fr.wikipedia.org/wiki/Arnaud_Lagard%C3%A8re"
+    "link": "https://fr.wikipedia.org/wiki/Arnaud_lagard%C3%A8re"
   },
   {
     "name": "Qatar Investment Authority",
@@ -125,12 +125,12 @@
     "link": "https://fr.wikipedia.org/wiki/Qatar_Investment_Authority"
   },
   {
-    "name": "Famille Baudecroux",
+    "name": "la famille Baudecroux",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Jean-Paul_Baudecroux"
   },
   {
-    "name": "Famille Mohn",
+    "name": "la famille Mohn",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Famille_Mohn"
   },
@@ -155,7 +155,7 @@
     "link": "https://fr.wikipedia.org/wiki/Nicolas_Beytout"
   },
   {
-    "name": "Famille Bettencourt",
+    "name": "la famille Bettencourt",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Famille_Bettencourt"
   },
@@ -165,12 +165,12 @@
     "link": "https://fr.wikipedia.org/wiki/Claude_Perdriel"
   },
   {
-    "name": "La République Française",
+    "name": "la République Française",
     "type": "group",
     "link": "https://fr.wikipedia.org/wiki/R%C3%A9publique_Fran%C3%A7aise"
   },
   {
-    "name": "La République Fédérale d'Allemagne",
+    "name": "la République Fédérale d'Allemagne",
     "type": "group",
     "link": "https://fr.wikipedia.org/wiki/Allemagne"
   }
