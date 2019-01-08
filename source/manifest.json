@@ -1,8 +1,8 @@
 {
-  "name": "CapitExt",
+  "name": "Qui possède les médias ?",
   "version": "0.0.0",
-  "description": "Who own what",
-  "homepage_url": "https://github.com/DesignandHuman/capitext",
+  "description": "Qui possède les grands médias que nous lisons ?",
+  "homepage_url": "https://github.com/DesignandHuman/qui-possede-les-medias",
   "manifest_version": 2,
   "minimum_chrome_version": "58",
   "applications": {

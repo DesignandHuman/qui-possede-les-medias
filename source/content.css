@@ -1,4 +1,4 @@
-.capitext .capitext-box {
+.qui-possede-les-medias .qui-possede-les-medias-box {
   position: fixed;
   z-index: 9999999999;
   top: 0;
@@ -17,16 +17,16 @@
 }
 
 /* link */
-.capitext-box a:link,
-.capitext-box a:visited,
-.capitext-box a:active,
-.capitext-box a:focus {
+.qui-possede-les-medias-box a:link,
+.qui-possede-les-medias-box a:visited,
+.qui-possede-les-medias-box a:active,
+.qui-possede-les-medias-box a:focus {
   text-decoration: underline;
   color: #edb200;
 }
 
 /* mouse over link */
-.capitext-box a:hover {
+.qui-possede-les-medias-box a:hover {
   text-decoration: none;
   color: #edb200;
 }

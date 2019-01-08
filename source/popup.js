@@ -16,10 +16,10 @@ async function init () {
   }
 
   const box = document.createElement('div')
-  box.className = 'capitext-box'
+  box.className = 'qui-possede-les-medias-box'
 
   const text = document.createElement('p')
-  text.className = 'capitext-text'
+  text.className = 'qui-possede-les-medias-text'
   text.innerHTML = `Ce média appartient à ${renderData(boxData)}.`
   box.appendChild(text)
 

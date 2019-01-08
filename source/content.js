@@ -18,19 +18,19 @@ async function init () {
   }
 
   await safeElementReady('body')
-  document.documentElement.classList.add('capitext')
+  document.documentElement.classList.add('qui-possede-les-medias')
 
   const box = document.createElement('div')
-  box.className = 'capitext-box'
+  box.className = 'qui-possede-les-medias-box'
 
   const button = document.createElement('button')
-  button.className = 'capitext-button'
+  button.className = 'qui-possede-les-medias-button'
   button.innerHTML = '✖'
   button.addEventListener('click', (e) => e.currentTarget.parentNode.remove())
   box.appendChild(button)
 
   const text = document.createElement('p')
-  text.className = 'capitext-text'
+  text.className = 'qui-possede-les-medias-text'
   text.innerHTML = `Ce média appartient à ${renderData(boxData)}.`
   box.appendChild(text)
 
