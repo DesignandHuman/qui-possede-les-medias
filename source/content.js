@@ -31,7 +31,7 @@ async function init () {
 
   const text = document.createElement('p')
   text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média appartient à ${renderData(boxData)}.`
+  text.innerHTML = `Ce média ${renderData(boxData)}.`
   box.appendChild(text)
 
   select('body').append(box)

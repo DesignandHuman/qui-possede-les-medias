@@ -29,5 +29,5 @@ test('renderData', t => {
       link: null
     },
   ]
-  t.is(utils.renderData(data), '<a href="link" rel="noopener noreferrer" target="_blank">name</a>, no link')
+  t.is(utils.renderData(data), ' appartient à <a href="link" rel="noopener noreferrer" target="_blank">name</a> et no link')
 })
