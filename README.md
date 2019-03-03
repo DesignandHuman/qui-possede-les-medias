@@ -45,7 +45,7 @@ Cela permet d'une part de **mieux connaître ces actionnaires majoritaires** via
 
 ## Sources
 
-* Source 1
+* [Le Monde diplomatique/Medias_francais](https://github.com/mdiplo/Medias_francais)
 
 
 ## License
