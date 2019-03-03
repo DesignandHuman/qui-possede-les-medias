@@ -1,3 +1,12 @@
+:root {
+  width: 250px;
+  padding: 1em;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 /* link */
 .qui-possede-les-medias-box a:link,
 .qui-possede-les-medias-box a:visited,

@@ -3,15 +3,14 @@
   z-index: 9999999999;
   top: 0;
   right: 0;
-  width: auto;
-  padding: 2rem;
-  margin: 2rem;
-  background: black;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  opacity: 0.9;
-  text-align: right;
+  width: 250px !important;
+  padding: 2em !important;
+  margin: 2em !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  text-align: left !important;
   border-radius: 0.2em;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.27);
 }
@@ -21,12 +20,20 @@
 .qui-possede-les-medias-box a:visited,
 .qui-possede-les-medias-box a:active,
 .qui-possede-les-medias-box a:focus {
-  text-decoration: underline;
-  color: #edb200;
+  text-decoration: underline !important;
+  color: #edb200 !important;
 }
 
 /* mouse over link */
 .qui-possede-les-medias-box a:hover {
-  text-decoration: none;
-  color: #edb200;
+  text-decoration: none !important;
+  color: #edb200 !important;
+}
+
+.qui-possede-les-medias-button {
+  background: none !important;
+  color: white !important;
+  border: none !important;
+  float: right !important;
+  margin: -1.5em !important;
 }
