@@ -2,7 +2,7 @@ import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
 
 import { safeElementReady } from './libs/document'
-import { isEmpty, renderData } from './libs/utils'
+import {isEmpty, renderText} from './libs/utils'
 
 // Add globals for easier debugging
 window.select = select
@@ -29,10 +29,7 @@ async function init () {
   button.addEventListener('click', (e) => e.currentTarget.parentNode.remove())
   box.appendChild(button)
 
-  const text = document.createElement('p')
-  text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média ${renderData(boxData)}.`
-  box.appendChild(text)
+  box.appendChild(renderText(boxData))
 
   select('body').append(box)
 }

@@ -26,3 +26,10 @@ export const renderPlural = (data, preSingular, prePlural) => {
     last
   ].join(' et ')
 }
+
+export const renderText = (data) => {
+  const text = document.createElement('p')
+  text.className = 'qui-possede-les-medias-text'
+  text.innerHTML = `Ce média ${renderData(data)}.`
+  return text
+}

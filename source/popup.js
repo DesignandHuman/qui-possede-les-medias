@@ -1,4 +1,4 @@
-import { isEmpty, renderData } from './libs/utils'
+import { isEmpty, renderText } from './libs/utils'
 
 async function init () {
   const tabs = await browser.tabs.query({
@@ -18,10 +18,7 @@ async function init () {
   const box = document.createElement('div')
   box.className = 'qui-possede-les-medias-box'
 
-  const text = document.createElement('p')
-  text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média ${renderData(boxData)}.`
-  box.appendChild(text)
+  box.appendChild(renderText(boxData))
 
   document.querySelector('body').append(box)
 }
