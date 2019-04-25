@@ -12,7 +12,7 @@ test('isEmpty', t => {
 })
 
 test('renderData', t => {
-  const data = [
+  const renderedData = utils.renderData([
     {
       type: 'test',
       name: 'no name',
@@ -28,9 +28,9 @@ test('renderData', t => {
       name: 'no link',
       link: null
     },
-  ]
-  t.true(utils.renderData(data).includes('<a href="link" rel="noopener noreferrer" target="_blank">name</a>'))
-  t.true(utils.renderData(data).includes('no link'))
-  t.false(utils.renderData(data).includes('rel="noopener noreferrer" target="_blank">no link</a>'))
-  t.false(utils.renderData(data).includes('no name'))
+  ])
+  t.true(renderedData.includes('<a href="link" rel="noopener noreferrer" target="_blank">name</a>'))
+  t.true(renderedData.includes('no link'))
+  t.false(renderedData.includes('rel="noopener noreferrer" target="_blank">no link</a>'))
+  t.false(renderedData.includes('no name'))
 })
