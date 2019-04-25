@@ -29,5 +29,8 @@ test('renderData', t => {
       link: null
     },
   ]
-  t.is(utils.renderData(data), ' appartient à <a href="link" rel="noopener noreferrer" target="_blank">name</a> et no link')
+  t.true(utils.renderData(data).includes('<a href="link" rel="noopener noreferrer" target="_blank">name</a>'))
+  t.true(utils.renderData(data).includes('no link'))
+  t.false(utils.renderData(data).includes('rel="noopener noreferrer" target="_blank">no link</a>'))
+  t.false(utils.renderData(data).includes('no name'))
 })
