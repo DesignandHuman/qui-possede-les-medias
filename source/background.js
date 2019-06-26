@@ -1,6 +1,7 @@
 import localforage from 'localforage'
 import { isEmpty } from './libs/utils'
 import { renderBadge } from './libs/browser'
+import optionsStorage from './libs/storage'
 
 localforage.setDriver([localforage.INDEXEDDB, localforage.WEBSQL])
 
@@ -35,8 +36,14 @@ browser.runtime.onMessage.addListener(async (message, sender) => {
   }
 
   if (message.action === 'content') {
-    renderBadge(site.length.toString() || '', sender.tab.id)
+    await renderBadge(site.length.toString() || '', sender.tab.id)
     // await browser.tabs.insertCSS(sender.tab.id, { file: 'content.css' })
+
+    const { enableContent } = await optionsStorage.getAll();
+
+    if (!enableContent) {
+      return
+    }
   }
 
   return Promise.all(site.map(async name => ((await entitiesStore.getItem(name)) || {name})))

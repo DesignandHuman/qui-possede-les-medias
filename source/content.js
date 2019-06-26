@@ -1,7 +1,7 @@
 import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
+import elementReady from 'element-ready'
 
-import { safeElementReady } from './libs/document'
 import {isEmpty, renderText} from './libs/utils'
 
 // Add globals for easier debugging
@@ -17,7 +17,9 @@ async function init () {
     return
   }
 
-  await safeElementReady('body')
+  await elementReady('body', {
+    stopOnDomReady: false
+  })
   document.documentElement.classList.add('qui-possede-les-medias')
 
   const box = document.createElement('div')

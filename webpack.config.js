@@ -9,7 +9,8 @@ module.exports = (env, argv) => ({
   entry: {
     'content-script': './source/content',
     background: './source/background',
-    popup: './source/popup'
+    popup: './source/popup',
+    options: './source/options'
   },
   output: {
     path: path.join(__dirname, 'distribution'),
