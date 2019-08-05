@@ -17,7 +17,7 @@
     "localforage": "^1.7.2",
     "select-dom": "^5.0.0",
     "webext-domain-permission-toggle": "0.1.0",
-    "webext-dynamic-content-scripts": "^5.0.1",
+    "webext-dynamic-content-scripts": "^6.0.1",
     "webext-options-sync": "^0.21.0",
     "webextension-polyfill": "^0.4.0"
   },
