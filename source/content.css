@@ -30,10 +30,13 @@
   color: #edb200 !important;
 }
 
+/* close button */
 .qui-possede-les-medias-button {
+  cursor: pointer;
   background: none !important;
   color: white !important;
   border: none !important;
-  float: right !important;
+  float: left !important;
   margin: -1.5em !important;
+  font-size: 1em;
 }

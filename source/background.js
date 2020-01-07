@@ -1,3 +1,4 @@
+import 'webext-dynamic-content-scripts'
 import localforage from 'localforage'
 import { isEmpty } from './libs/utils'
 import { renderBadge } from './libs/browser'

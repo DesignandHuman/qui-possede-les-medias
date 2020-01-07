@@ -1,4 +1,3 @@
-import 'webext-dynamic-content-scripts'
 import select from 'select-dom'
 import elementReady from 'element-ready'
 
@@ -27,7 +26,7 @@ async function init () {
 
   const button = document.createElement('button')
   button.className = 'qui-possede-les-medias-button'
-  button.innerHTML = '✖'
+  button.innerHTML = '&times;'
   button.addEventListener('click', (e) => e.currentTarget.parentNode.remove())
   box.appendChild(button)
 

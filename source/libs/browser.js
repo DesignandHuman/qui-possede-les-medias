@@ -18,7 +18,7 @@ export const queryPermission = async (permission) => {
 
 export const requestPermission = async (permission) => {
   try {
-    return browser.permissions.request({permissions: [permission]})
+    return browser.permissions.request({origins: [permission]})
   } catch (error) {
     console.log(error)
     return false

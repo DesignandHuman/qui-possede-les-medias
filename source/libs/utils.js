@@ -1,11 +1,6 @@
 export const isEmpty = variable => (!variable || variable.length === 0 || Object.getOwnPropertyNames(variable).length === 0)
 
-export const renderData = (data) => [
-  renderPlural(data.filter(entity => entity.type === 'group'), 'du groupe', 'des groupes'),
-  renderPlural(data.filter(entity => entity.type === 'holder'), 'appartient à', 'appartient à'),
-].join(' ')
-
-export const renderPlural = (data, preSingular, prePlural) => {
+export const renderPlural = (data) => {
   if (data.length < 1) {
     return null
   }
@@ -14,14 +9,14 @@ export const renderPlural = (data, preSingular, prePlural) => {
     : entity.name
   )
   if (data.length === 1) {
-    return `${preSingular} ${data.pop()}`
+    return data.pop()
   }
   if (typeof Intl !== 'undefined' && Intl.ListFormat) {
     const lf = new Intl.ListFormat('fr')
-    return `${prePlural} ${lf.format(data)}`
+    return lf.format(data)
   }
   const last = data.pop()
-  return prePlural + ' ' + [
+  return [
     data.join(', '),
     last
   ].join(' et ')
@@ -30,6 +25,6 @@ export const renderPlural = (data, preSingular, prePlural) => {
 export const renderText = (data) => {
   const text = document.createElement('p')
   text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média ${renderData(data)}.`
+  text.innerHTML = `Ce média appartient à ${renderPlural(data)}.`
   return text
 }
