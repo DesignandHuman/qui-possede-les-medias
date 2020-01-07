@@ -526,13 +526,17 @@
   "lcp.fr": [
     "la République Française"
   ],
+  "yahoo.com": [
+    "Yahoo",
+    "Verizon"
+  ],
   "arte.tv": [
     "Arte France & ARD ZDF",
     "la République Française",
     "la République Fédérale d'Allemagne"
   ],
-  "yahoo.com": [
-    "Yahoo Group",
-    "Verizon"
+  "orange.fr": [
+    "Orange",
+    "la République Française"
   ]
 }

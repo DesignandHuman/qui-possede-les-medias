@@ -165,15 +165,15 @@
     "link": "https://fr.wikipedia.org/wiki/Claude_Perdriel"
   },
   {
+    "name": "Verizon",
+    "type": "group",
+    "link": "https://fr.wikipedia.org/wiki/Verizon_Communications"
+  },
+  {
     "name": "la République Française",
     "type": "group",
     "link": "https://fr.wikipedia.org/wiki/R%C3%A9publique_Fran%C3%A7aise"
   },
-   {
-      "name": "Verizon",
-      "type": "holder",
-      "link": "https://fr.wikipedia.org/wiki/Verizon_Communications"
-    },
   {
     "name": "la République Fédérale d'Allemagne",
     "type": "group",
