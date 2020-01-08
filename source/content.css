@@ -13,6 +13,7 @@
   text-align: left !important;
   border-radius: 0.2em;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.27);
+  line-height: 1.5em !important;
 }
 
 /* link */
@@ -36,7 +37,7 @@
   background: none !important;
   color: white !important;
   border: none !important;
-  float: left !important;
+  float: right !important;
   margin: -1.5em !important;
   font-size: 1em;
 }
