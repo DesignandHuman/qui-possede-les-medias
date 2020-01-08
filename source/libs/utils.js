@@ -1,6 +1,6 @@
 export const isEmpty = variable => (!variable || variable.length === 0 || Object.getOwnPropertyNames(variable).length === 0)
 
-export const renderPlural = (data) => {
+export const renderData = (data) => {
   if (data.length < 1) {
     return null
   }
@@ -25,6 +25,6 @@ export const renderPlural = (data) => {
 export const renderText = (data) => {
   const text = document.createElement('p')
   text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média appartient à ${renderPlural(data)}.`
+  text.innerHTML = `Ce média appartient à ${renderData(data)}.`
   return text
 }

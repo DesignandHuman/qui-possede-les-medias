@@ -32,5 +32,4 @@ test('renderData', t => {
   t.true(renderedData.includes('<a href="link" rel="noopener noreferrer" target="_blank">name</a>'))
   t.true(renderedData.includes('no link'))
   t.false(renderedData.includes('rel="noopener noreferrer" target="_blank">no link</a>'))
-  t.false(renderedData.includes('no name'))
 })
