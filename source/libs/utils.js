@@ -25,6 +25,10 @@ export const renderData = (data) => {
 export const renderText = (data) => {
   const text = document.createElement('p')
   text.className = 'qui-possede-les-medias-text'
-  text.innerHTML = `Ce média appartient à ${renderData(data)}.`
+  if (data && data.length > 0) {
+    text.innerHTML = `Ce média appartient à ${renderData(data)}.`
+  } else {
+    text.innerHTML = 'Aucune donnée d’appartenance concernant ce média n’est disponible.'
+  }
   return text
 }

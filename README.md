@@ -2,7 +2,7 @@
 
 > Qui possède les grands médias que nous lisons ?
 
-[![Build Status](https://travis-ci.com/DesignandHuman/qui-possede-les-medias.svg?branch=master)](https://travis-ci.com/DesignandHuman/qui-possede-les-medias)
+[![Build Status](https://github.com/DesignandHuman/qui-possede-les-medias/workflows/Node%20CI/badge.svg)](https://github.com/DesignandHuman/qui-possede-les-medias/actions)
 
 ## À propos
 
@@ -26,7 +26,7 @@ Cela permet d'une part de **mieux connaître ces actionnaires majoritaires** via
 
 ## Contribution
 
-[Node.js](https://nodejs.org/) version >= 10 is required.
+[Node.js](https://nodejs.org/) version >= 12 is required.
 
 1. Clone locally the repository.
    ```bash

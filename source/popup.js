@@ -11,10 +11,6 @@ async function init () {
     hostname: tabs[0].url.split('/')[2].split('.').slice(-2).join('.')
   })
 
-  if (isEmpty(boxData)) {
-    return
-  }
-
   const box = document.createElement('div')
   box.className = 'qui-possede-les-medias-box'
 
