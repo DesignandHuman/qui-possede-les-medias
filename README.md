@@ -17,9 +17,9 @@ Cela permet d'une part de **mieux connaître ces actionnaires majoritaires** via
 ## Installation
 
 [link-cws]: https://chrome.google.com/webstore/detail/qui-possede-les-medias/id "Version published on Chrome Web Store"
-[link-amo]: https://addons.mozilla.org/firefox/addon/qui-possede-les-medias/ "Version published on Mozilla Add-ons"
+[link-amo]: https://addons.mozilla.org/firefox/addon/qui-possède-les-médias/ "Version published on Mozilla Add-ons"
 
-- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/id.svg">][link-cws]
+- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cb1b8879-a4a5-4094-b930-f58060f8dd6f.svg">][link-cws]
 - [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/qui-possede-les-medias.svg">][link-amo]
 - **Opera** extension: Use [this Opera extension](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) to install the Chrome version.
 
