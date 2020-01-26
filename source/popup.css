@@ -1,8 +1,6 @@
 :root {
   width: 250px;
   padding: 1em;
-  background: black;
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
@@ -13,11 +11,11 @@
 .qui-possede-les-medias-box a:active,
 .qui-possede-les-medias-box a:focus {
   text-decoration: underline;
-  color: #edb200;
+  color: #ce9500;
 }
 
 /* mouse over link */
 .qui-possede-les-medias-box a:hover {
   text-decoration: none;
-  color: #edb200;
+  color: #ce9500;
 }
