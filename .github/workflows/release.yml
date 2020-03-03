@@ -1,6 +1,6 @@
 name: Release
 
-on: [push]
+on:
   schedule:
     - cron:  '0 4 * * *'
 
