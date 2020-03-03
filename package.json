@@ -6,12 +6,11 @@
     "test": "npm run lint && cross-env BABEL_ENV=testing ava && run-s build",
     "build": "webpack --mode=production -p",
     "start": "webpack --mode=development --watch",
-    "release:amo": "shipit firefox distribution",
-    "release:cws": "shipit chrome distribution",
+    "publish:amo": "shipit firefox distribution",
+    "publish:cws": "shipit chrome distribution",
     "prerelease:version": "dot-json distribution/manifest.json version $VER",
     "prerelease:source-url": "echo https://github.com/DesignandHuman/qui-possede-les-medias/archive/\"${GITHUB_SHA:-$VER}\".zip > distribution/SOURCE_URL",
-    "release": "VER=$(daily-version) npm-run-all build prerelease:* create-git-tag release:*",
-    "create-git-tag": "git tag $VER -m $VER && git push origin $VER"
+    "release": "npm-run-all build prerelease:* publish:*"
   },
   "dependencies": {
     "element-ready": "^4.0.0",

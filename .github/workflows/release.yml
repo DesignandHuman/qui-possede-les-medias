@@ -1,0 +1,50 @@
+name: Release
+
+on: [push]
+#  schedule:
+#    - cron:  '0 4 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          npm test
+        env:
+          CI: true
+      - name: Generate release name
+        id: release_name
+        run: |
+          echo "::set-output name=version::$(npx daily-version)"
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.release_name.outputs.version }}
+          release_name: Release ${{ steps.release_name.outputs.version }}
+      - name: Publish
+        run: npm run release
+        env:
+          VER: ${{ steps.release_name.outputs.version }}
+          WEXT_SHIPIT_CHROME_EXTENSION_ID: ${{ secrets.CHROME_EXTENSION_ID }}
+          WEXT_SHIPIT_CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
+          WEXT_SHIPIT_CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
+          WEXT_SHIPIT_CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
+          WEXT_SHIPIT_FIREFOX_JWT_ISSUER: ${{ secrets.JWT_USER }}
+          WEXT_SHIPIT_FIREFOX_JWT_SECRET: ${{ secrets.JWT_SECRET }}
