@@ -14,7 +14,7 @@ _Apprenons à faire connaissance avec les actionnaires majoritaires des grands m
 
 💰 Une fois installé, ce plugin permet de savoir qui est l’actionnaire majoritaire qui possède financièrement le média en question.
 
-👀 Sur chaque nom, il y a un lien vers la page Wikipedia de l’actionnaire afin de mieux le connaître.
+👀 Sur chaque nom, il y a un lien vers la page Wikipédia de l’actionnaire afin de mieux le connaître.
 
 
 ## Installation
