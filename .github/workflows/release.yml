@@ -17,10 +17,14 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/download-artifact@v1
         with:
-          name: request_release
+          name: build_release
       - name: Check if release requested
-        if: request_release
-        run: echo "::set-output name=request_release::$(cat request_release)"
+        id: request_release
+        run: |
+          if [ ! -f "distibution/manifest.json" ]
+          then
+            echo "::set-output name=request_release::1"
+          fi
       - name: Use Node.js ${{ matrix.node-version }}
         if: contains(steps.request_release.outputs.request_release, '1')
         uses: actions/setup-node@v1
@@ -59,8 +63,7 @@ jobs:
           WEXT_SHIPIT_CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
           WEXT_SHIPIT_FIREFOX_JWT_ISSUER: ${{ secrets.JWT_USER }}
           WEXT_SHIPIT_FIREFOX_JWT_SECRET: ${{ secrets.JWT_SECRET }}
-      - run: echo 0 > request_release
       - uses: actions/upload-artifact@v1
         with:
-          name: request_release
-          path: request_release
+          name: build_release
+          path: distibution/manifest.json

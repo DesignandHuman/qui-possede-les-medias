@@ -24,9 +24,3 @@ jobs:
           npm test
         env:
           CI: true
-      - run: echo 1 > request_release
-      - uses: actions/upload-artifact@v1
-        if: contains(github.ref, 'master')
-        with:
-          name: request_release
-          path: request_release
