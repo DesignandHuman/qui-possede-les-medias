@@ -15,13 +15,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/download-artifact@v1
+      - uses: actions/cache@v1
         with:
-          name: build_release
+          path: last_release
+          key: request_release
       - name: Release requested
         id: request_release
-        if: failure()
-        run: echo "::set-output name=request_release::1"
+        run: |
+          if [ ! -f "last_release" ] || [ "$(cat last_release)" != "$GITHUB_SHA" ]; then
+            echo "::set-output name=request_release::1"
+          fi
       - name: Use Node.js ${{ matrix.node-version }}
         if: contains(steps.request_release.outputs.request_release, '1')
         uses: actions/setup-node@v1
@@ -49,6 +52,7 @@ jobs:
         with:
           tag_name: ${{ steps.release_name.outputs.version }}
           release_name: Release ${{ steps.release_name.outputs.version }}
+      - run: echo $GITHUB_SHA > last_release
       - name: Publish
         if: contains(steps.request_release.outputs.request_release, '1')
         run: npm run release
@@ -60,8 +64,3 @@ jobs:
           WEXT_SHIPIT_CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
           WEXT_SHIPIT_FIREFOX_JWT_ISSUER: ${{ secrets.JWT_USER }}
           WEXT_SHIPIT_FIREFOX_JWT_SECRET: ${{ secrets.JWT_SECRET }}
-      - uses: actions/upload-artifact@v1
-        if: contains(steps.request_release.outputs.request_release, '1')
-        with:
-          name: build_release
-          path: distibution/manifest.json
