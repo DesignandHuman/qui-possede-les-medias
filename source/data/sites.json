@@ -1,411 +1,343 @@
 {
   "lemonde.fr": [
-    "le Monde",
     "Xavier Niel"
   ],
   "tf1.fr": [
-    "TF1",
     "la famille Bouygues"
   ],
   "lci.fr": [
-    "TF1",
     "la famille Bouygues"
   ],
   "lefigaro.fr": [
-    "Dassault",
     "la famille Dassault"
   ],
   "lalettredelexpansion.com": [
-    "Dassault",
     "la famille Dassault"
   ],
   "nouvelobs.com": [
-    "le Monde",
     "Xavier Niel"
   ],
   "monde-diplomatique.fr": [
-    "le Monde",
     "Xavier Niel"
   ],
   "telerama.fr": [
-    "le Monde",
     "Xavier Niel"
   ],
   "courrierinternational.com": [
-    "le Monde",
     "Xavier Niel"
   ],
   "lavie.fr": [
-    "le Monde",
     "Xavier Niel"
   ],
   "huffingtonpost.fr": [
-    "le Monde & LNEI",
     "Xavier Niel",
     "Mathieu Pigasse"
   ],
   "lesinrocks.com": [
-    "LNEI",
     "Mathieu Pigasse"
   ],
   "nova.fr": [
-    "LNEI",
     "Mathieu Pigasse"
   ],
   "vice.com": [
-    "LNEI",
     "Mathieu Pigasse"
   ],
   "valeursactuelles.com": [
-    "Valmonde",
     "Iskandar Safa"
   ],
   "votreargent.lexpress.fr": [
-    "Valmonde",
     "Iskandar Safa"
   ],
   "slate.fr": [
-    "Lampsane ISA",
-    "Ariane Rothschild",
-    "Benjamin Rotschild"
+    "Ariane & Benjamin Rothschild"
   ],
   "cnews.fr": [
-    "Vivendi",
     "Vincent Bolloré"
   ],
   "mycanal.fr": [
-    "Vivendi",
     "Vincent Bolloré"
   ],
   "canal.fr": [
-    "Vivendi",
     "Vincent Bolloré"
   ],
   "marianne.net": [
-    "Czech Media Invest",
     "Daniel Křetínský"
   ],
   "lepoint.fr": [
-    "Artemis",
     "François Pinault"
   ],
   "agefi.fr": [
-    "Artemis",
     "François Pinault"
   ],
   "republicain-lorrain.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "lejsl.com": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "leprogres.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "ledauphine.com": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "bienpublic.com": [
     "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "lalsace.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "vosgesmatin.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "dna.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "estrepublicain.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "jhm.fr": [
-    "EBRA",
-    "Crédit Mutuel"
+    "la banque le Crédit Mutuel"
   ],
   "lepopulaire.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "lyonne.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "lechorepublicain.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "leberry.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "lejdc.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "lamontagne.fr": [
-    "la Montagne Centre France",
     "la Fondation Varenne"
   ],
   "larep.fr": [
-    "la Montagne Centre France et NRCO",
     "la Fondation Varenne",
     "la famille Saint-Cricq"
   ],
   "lanouvellerepublique.fr": [
-    "NRCO",
+    "la Fondation Varenne",
     "la famille Saint-Cricq"
   ],
   "centre-presse.fr": [
-    "NRCO",
+    "la Fondation Varenne",
     "la famille Saint-Cricq"
   ],
   "tvtours.fr": [
-    "NRCO",
+    "la Fondation Varenne",
     "la famille Saint-Cricq"
   ],
   "larepubliquedespyrenees.fr": [
-    "Sud Ouest",
+    "la Fondation Varenne",
     "la famille Lemoine"
   ],
   "charentelibre.fr": [
-    "Sud Ouest",
+    "la Fondation Varenne",
     "la famille Lemoine"
   ],
   "dordognelibre.fr": [
-    "Sud Ouest",
+    "la Fondation Varenne",
     "la famille Lemoine"
   ],
   "sudouest.fr": [
-    "Sud Ouest",
+    "la Fondation Varenne",
     "la famille Lemoine"
   ],
   "franceguyane.fr": [
-    "Hersant Média",
     "Philippe Hersant"
   ],
   "franceantilles.fr": [
-    "Hersant Média",
     "Philippe Hersant"
   ],
   "corsematin.com": [
-    "la Provence",
-    "Bernard Tapie"
+    "Bernard Tapie",
+    "Xavier Niel"
   ],
   "laprovence.com": [
-    "la Provence",
-    "Bernard Tapie"
+    "Bernard Tapie",
+    "Xavier Niel"
   ],
   "nicematin.com": [
-    "Nice Matin",
     "Nethys"
   ],
   "paris-normandie.fr": [
-    "SNIC",
     "Jean-Louis Louvel"
   ],
   "tebeo.bzh": [
-    "Télégramme",
     "Edouard Coudurier"
   ],
   "tebesud.bzh": [
-    "Télégramme",
     "Edouard Coudurier"
   ],
   "lepoher.fr": [
-    "Télégramme",
     "Edouard Coudurier"
   ],
   "letelegramme.fr": [
-    "Télégramme",
     "Edouard Coudurier"
   ],
   "nordeclair.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "courrier-picard.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "lest-eclair.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "nordlittoral.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "lardennais.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "lunion.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "aisnenouvelle.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "lavoixdunord.fr": [
-    "Rossel & Crédit Agricole",
+    "Patrick Hurbain",
     "la famille Hurbain"
   ],
   "20minutes.fr": [
-    "Association SDPH",
-    "la famille Hutin"
+    "Patrick Hurbain",
+    "la famille Hurbain"
   ],
   "ladepeche.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "petitbleu.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "nrpyrenees.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "lindependant.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "centrepresseaveyron.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "midilibre.fr": [
-    "la Dépêche",
     "la famille Baylet"
   ],
   "ouest-france.fr": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "lemainelibre.fr": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "lapressedelamanche.fr": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "publihebdos.com": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "presseocean.fr": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "courrierdelouest.fr": [
-    "Association SDPH",
+    "l’ASDPH",
     "la famille Hutin"
   ],
   "latribune.fr": [
-    "Edi Invest",
-    "Franck Julien"
+    "Jean-Christophe Tortora",
+    "Laurent Alexandre"
   ],
   "notretemps.com": [
-    "Bayard",
     "l'ensemble des Augustins de l'Assomption"
   ],
   "pelerin.com": [
-    "Bayard",
     "l'ensemble des Augustins de l'Assomption"
   ],
   "la-croix.com": [
-    "Bayard",
     "l'ensemble des Augustins de l'Assomption"
   ],
   "parismatch.com": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "virginradio.fr": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "gulli.fr": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "rfm.fr": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "europe1.fr": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "lejdd.fr": [
-    "Lagardère SCA",
     "Arnaud Lagardère",
     "Qatar Investment Authority"
   ],
   "nrj.fr": [
-    "NRJ",
     "la famille Baudecroux"
   ],
   "nrj-play.fr": [
-    "NRJ",
     "la famille Baudecroux"
   ],
   "cheriefm.fr": [
-    "NRJ",
     "la famille Baudecroux"
   ],
   "nostalgie.fr": [
-    "NRJ",
     "la famille Baudecroux"
   ],
   "rireetchansons.fr": [
-    "NRJ",
     "la famille Baudecroux"
   ],
   "funradio.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "rtl.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "rtl2.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "m6.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "6play.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "capital.fr": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "hbr.org": [
-    "Bertelsman",
+    "Bertelsmann",
     "la famille Mohn"
   ],
   "vsd.fr": [
@@ -413,35 +345,27 @@
     "Georges Ghosn"
   ],
   "bfmtv.com": [
-    "Altice",
     "Patrick Drahi"
   ],
   "numero23.fr": [
-    "Altice",
     "Patrick Drahi"
   ],
   "lexpress.fr": [
-    "Altice",
     "Patrick Drahi"
   ],
   "liberation.fr": [
-    "Altice",
     "Patrick Drahi"
   ],
   "lesechos.fr": [
-    "LVMH",
     "Bernard Arnault"
   ],
   "radioclassique.fr": [
-    "LVMH",
     "Bernard Arnault"
   ],
   "leparisien.fr": [
-    "LVMH",
     "Bernard Arnault"
   ],
   "aujourdhui-en-france.fr": [
-    "LVMH",
     "Bernard Arnault"
   ],
   "lopinion.fr": [
@@ -451,92 +375,70 @@
     "Claude Perdriel"
   ],
   "historia.fr": [
-    "Sophia Publication",
     "Claude Perdriel"
   ],
   "lhistoire.fr": [
-    "Sophia Publication",
     "Claude Perdriel"
   ],
   "larecherche.fr": [
-    "Sophia Publication",
     "Claude Perdriel"
   ],
   "nouveau-magazine-litteraire.com": [
-    "Sophia Publication",
     "Claude Perdriel"
   ],
   "sciencesetavenir.fr": [
-    "Perdriel",
     "Claude Perdriel"
   ],
   "challenges.fr": [
-    "Sophia Publication",
-    "Claude Perdriel",
-    "la République Française"
+    "Claude Perdriel"
   ],
   "fip.fr": [
-    "Radio France",
     "la République Française"
   ],
   "franceculture.fr": [
-    "Radio France",
-    "République Française"
+    "la République Française"
   ],
   "franceinter.fr": [
-    "Radio France",
     "la République Française"
   ],
   "francemusique.fr": [
-    "Radio France",
     "la République Française"
   ],
   "francebleu.fr": [
-    "Radio France",
     "la République Française"
   ],
   "mouv.fr": [
-    "Radio France",
     "la République Française"
   ],
   "francetvinfo.fr": [
-    "Radio France et France Télévision",
     "la République Française"
   ],
   "france.tv": [
-    "France Télévision",
     "la République Française"
   ],
   "tv5monde.com": [
-    "France Médias Monde",
     "la République Française"
   ],
   "france24.com": [
-    "France Médias Monde",
     "la République Française"
   ],
   "rfi.fr": [
-    "France Médias Monde",
     "la République Française"
   ],
   "mc-doualiya.com": [
-    "France Médias Monde",
     "la République Française"
   ],
   "lcp.fr": [
     "la République Française"
   ],
   "yahoo.com": [
-    "Yahoo",
     "Verizon"
   ],
   "arte.tv": [
-    "Arte France & ARD ZDF",
     "la République Française",
     "la République Fédérale d'Allemagne"
   ],
-  "orange.fr": [
-    "Orange",
-    "la République Française"
+  "theconversation.com": [
+    "The Conversation Trust"
   ]
 }

@@ -10,6 +10,51 @@
     "link": "https://fr.wikipedia.org/wiki/Martin_Bouygues"
   },
   {
+    "name": "la famille Lemoine",
+    "type": "holder",
+    "link": "https://metada.org/graph/165"
+  },
+  {
+    "name": "Jean-Louis Louvel",
+    "type": "holder",
+    "link": "https://metada.org/graph/279"
+  },
+  {
+    "name": "Patrick Hurbain",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Patrick_Hurbain"
+  },
+  {
+    "name": "Jean-Christophe Tortora",
+    "type": "holder",
+    "link": "https://duckduckgo.com/?q=Jean-Christophe+Tortora&atb=v196-1&ia=web"
+  },
+  {
+    "name": "Laurent Alexandre",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Laurent_Alexandre"
+  },
+  {
+    "name": "Arnaud Lagardère",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Arnaud_Lagard%C3%A8re"
+  },
+  {
+    "name": "Ghosn Capital",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Carlos_Ghosn"
+  },
+  {
+    "name": "Bertelsmann",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/Bertelsmann"
+  },
+  {
+    "name": "The Conversation Trust",
+    "type": "holder",
+    "link": "https://fr.wikipedia.org/wiki/The_Conversation_(m%C3%A9dia)"
+  },
+  {
     "name": "la famille Dassault",
     "type": "holder",
     "link": "https://fr.wikipedia.org/wiki/Serge_Dassault"
