@@ -15,23 +15,29 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/cache@v1
-        with:
-          path: last_release
-          key: request_release
-      - name: Release requested
+      - uses: actions/github-script@0.8.0
         id: request_release
-        run: |
-          if [ ! -f "last_release" ] || [ "$(cat last_release)" != "$GITHUB_SHA" ]; then
-            echo "::set-output name=request_release::1"
-          fi
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          result-encoding: string
+          script: |
+            const latest = await github.repos.getLatestRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            const commits = await github.repos.listCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              since: latest.data.published_at
+            });
+            return commits.data.length > 0
       - name: Use Node.js ${{ matrix.node-version }}
-        if: contains(steps.request_release.outputs.request_release, '1')
+        if: contains(steps.request_release.outputs.result, 'true')
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
       - name: npm install, build, and test
-        if: contains(steps.request_release.outputs.request_release, '1')
+        if: contains(steps.request_release.outputs.result, 'true')
         run: |
           npm install
           npm run build --if-present
@@ -39,12 +45,12 @@ jobs:
         env:
           CI: true
       - name: Generate release name
-        if: contains(steps.request_release.outputs.request_release, '1')
+        if: contains(steps.request_release.outputs.result, 'true')
         id: release_name
         run: |
           echo "::set-output name=version::$(npx daily-version)"
       - name: Create Release
-        if: contains(steps.request_release.outputs.request_release, '1')
+        if: contains(steps.request_release.outputs.result, 'true')
         id: create_release
         uses: actions/create-release@v1.0.1
         env:
@@ -52,9 +58,8 @@ jobs:
         with:
           tag_name: ${{ steps.release_name.outputs.version }}
           release_name: Release ${{ steps.release_name.outputs.version }}
-      - run: echo $GITHUB_SHA > last_release
       - name: Publish
-        if: contains(steps.request_release.outputs.request_release, '1')
+        if: contains(steps.request_release.outputs.result, 'true')
         run: npm run release
         env:
           VER: ${{ steps.release_name.outputs.version }}
