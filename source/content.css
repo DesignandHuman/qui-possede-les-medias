@@ -7,13 +7,19 @@
   padding: 2em !important;
   margin: 2em !important;
   background: rgba(0, 0, 0, 0.8) !important;
-  color: white !important;
+  border-radius: 0.2em;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.27);
+}
+
+/* text */
+.qui-possede-les-medias-box,
+.qui-possede-les-medias-text,
+.qui-possede-les-medias-box a {
   font-family: Arial, Helvetica, sans-serif !important;
   font-size: 14px !important;
   text-align: left !important;
-  border-radius: 0.2em;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.27);
   line-height: 1.5em !important;
+  color: white !important;
 }
 
 /* link */
@@ -33,11 +39,11 @@
 
 /* close button */
 .qui-possede-les-medias-button {
-  cursor: pointer;
+  cursor: pointer !important;
   background: none !important;
   color: white !important;
   border: none !important;
   float: right !important;
   margin: -1.5em !important;
-  font-size: 1em;
+  font-size: 1em !important;
 }
