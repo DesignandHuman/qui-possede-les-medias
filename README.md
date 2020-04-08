@@ -49,7 +49,7 @@ Ces fichiers sont éditables via un logiciel tableur.
   ```
 
 Pour soumettre des modifications :
- * [Télécharger le ou les fichiers dans le répertoir `data/`](https://github.com/DesignandHuman/qui-possede-les-medias/upload/master/source)
+ * [Télécharger le ou les fichiers dans le répertoir `data/`](https://github.com/DesignandHuman/qui-possede-les-medias/upload/master/data)
  * Soumettre le _commit_
  * Soumettre la _Pull request_
 
