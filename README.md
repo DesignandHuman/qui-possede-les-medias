@@ -29,6 +29,32 @@ _Apprenons à faire connaissance avec les actionnaires majoritaires des grands m
 
 ## Contribution
 
+### Données
+
+Pour modifier ou ajouter des nouvelles données au plugin, deux fichier [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) sont disponibles.
+Ces fichiers sont éditables via un logiciel tableur.
+
+* [**`data/sites.csv`**](data/sites.csv) liste tous les sites pour les quels un ou plusieurs propriétaires sont connus.
+  Pour chaque domaine, le nom de chaque propriétaire est listé à la suite.
+  
+  ```csv
+  domaine,proriétaire numéro 1, propriétaire numéro 2,,
+  ```
+
+* [**`data/entities.csv`**](data/entities.csv) liste tous les propriétaires mentionnés dans `data/sites.csv`.
+  Chaque propriétaire est listé avec son type (`holder` ou `group`) et un lien pour en savoir plus.
+  
+  ```csv
+  nom,type,lien
+  ```
+
+Pour soumettre des modifications :
+ * [Télécharger le ou les fichiers dans le répertoir `data/`](https://github.com/DesignandHuman/qui-possede-les-medias/upload/master/source)
+ * Soumettre le _commit_
+ * Soumettre la _Pull request_
+
+### Code
+
 [Node.js](https://nodejs.org/) version >= 12 is required.
 
 1. Clone locally the repository.

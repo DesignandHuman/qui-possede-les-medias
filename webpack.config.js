@@ -27,6 +27,17 @@ module.exports = (env, argv) => ({
             plugins: ['@babel/plugin-syntax-dynamic-import']
           }
         }
+      },
+      {
+        test: /\.csv$/,
+        exclude: /node_modules/,
+        use: {
+          loader: './data/csv-loader',
+          options: {
+            columns: true,
+            skip_empty_lines: true
+          }
+        }
       }
     ]
   },
