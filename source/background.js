@@ -10,25 +10,28 @@ const sitesStore = localforage.createInstance({name: "sites"})
 const entitiesStore = localforage.createInstance({name: "entities"})
 
 browser.runtime.onInstalled.addListener(async event => {
-  if (event.reason === 'install') {
-    const { default: data } = await import(/* webpackChunkName: "sites" */ '../data/sites.csv')
-    for (const item of data) {
-      await sitesStore.setItem(item.domain, [
-        item.holder1,
-        item.holder2,
-        item.holder3,
-        item.holder4
-      ].filter(holder => holder !== ""))
-    }
+  if (event.reason !== 'install') {
+    await sitesStore.clear()
   }
+  const { default: data } = await import(/* webpackChunkName: "sites" */ '../data/sites.csv')
+  for (const item of data) {
+    await sitesStore.setItem(item.domain, [
+      item.holder1,
+      item.holder2,
+      item.holder3,
+      item.holder4
+    ].filter(holder => holder !== ""))
+  }
+
 })
 
 browser.runtime.onInstalled.addListener(async event => {
-  if (event.reason === 'install') {
-    const { default: data } = await import(/* webpackChunkName: "entities" */ '../data/entities.csv')
-    for (const item of data) {
-      await entitiesStore.setItem(item.name, item)
-    }
+  if (event.reason !== 'install') {
+    await sitesStore.clear()
+  }
+  const { default: data } = await import(/* webpackChunkName: "entities" */ '../data/entities.csv')
+  for (const item of data) {
+    await entitiesStore.setItem(item.name, item)
   }
 })
 
