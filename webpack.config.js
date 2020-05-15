@@ -47,7 +47,9 @@ module.exports = (env, argv) => ({
         {
           from: '*',
           context: 'source',
-          ignore: ['*.js', 'data.json']
+          globOptions: {
+            ignore: ['*.js', 'data.json']
+          }
         },
         {
           from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
