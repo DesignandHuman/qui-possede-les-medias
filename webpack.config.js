@@ -42,16 +42,20 @@ module.exports = (env, argv) => ({
     ]
   },
   plugins: (argv.mode === 'development' ? [new ChromeExtensionReloader()] : []).concat([
-    new CopyWebpackPlugin([
-      {
-        from: '*',
-        context: 'source',
-        ignore: ['*.js', 'data.json']
-      },
-      {
-        from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
-      }
-    ])
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: '*',
+          context: 'source',
+          globOptions: {
+            ignore: ['*.js', 'data.json']
+          }
+        },
+        {
+          from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
+        }
+      ]
+    })
   ]),
   optimization: {
     // Without this, function names will be garbled and enableFeature won't work
