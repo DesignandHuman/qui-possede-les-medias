@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/github-script@0.8.0
+      - uses: actions/github-script@v1.1
         id: request_release
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
