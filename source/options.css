@@ -1,5 +1,14 @@
 body {
   min-width: 430px; /* Required to size the Browser Action popup */
+  background: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
 }
 
 :root {
