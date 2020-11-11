@@ -4,7 +4,7 @@
     "lint": "eslint source/*.js && stylelint source/*.css",
     "lint:fix": "eslint --fix source/*.js && stylelint --fix source/*.css",
     "test": "npm run lint && cross-env BABEL_ENV=testing ava && run-s build",
-    "build": "webpack --mode=production -p",
+    "build": "webpack --mode=production",
     "start": "webpack --mode=development --watch",
     "publish:amo": "shipit firefox distribution",
     "publish:cws": "shipit chrome distribution",
