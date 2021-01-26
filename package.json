@@ -16,7 +16,7 @@
     "element-ready": "^5.0.0",
     "localforage": "^1.7.2",
     "select-dom": "^7.1.0",
-    "webext-domain-permission-toggle": "1.1.0",
+    "webext-domain-permission-toggle": "2.0.0",
     "webext-dynamic-content-scripts": "^7.0.0",
     "webext-options-sync": "^2.0.0",
     "webextension-polyfill": "^0.7.0"
