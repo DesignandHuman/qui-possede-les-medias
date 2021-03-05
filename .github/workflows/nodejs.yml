@@ -27,7 +27,7 @@ jobs:
           restore-keys: npm-
 
       - name: Install
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build --if-present
