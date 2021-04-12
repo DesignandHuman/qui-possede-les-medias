@@ -13,7 +13,7 @@
     "release": "npm-run-all build prerelease:* publish:*"
   },
   "dependencies": {
-    "element-ready": "^5.0.0",
+    "element-ready": "^6.0.0",
     "localforage": "^1.7.2",
     "select-dom": "^7.1.0",
     "webext-domain-permission-toggle": "2.1.0",
