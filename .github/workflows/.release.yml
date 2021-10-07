@@ -21,11 +21,11 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           result-encoding: string
           script: |
-            const latest = await github.repos.getLatestRelease({
+            const latest = await github.rest.repos.getLatestRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
-            const commits = await github.repos.listCommits({
+            const commits = await github.rest.repos.listCommits({
               owner: context.repo.owner,
               repo: context.repo.repo,
               since: latest.data.published_at
