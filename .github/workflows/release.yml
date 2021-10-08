@@ -58,14 +58,14 @@ jobs:
         with:
           tag_name: ${{ steps.release_name.outputs.version }}
           release_name: Release ${{ steps.release_name.outputs.version }}
-      - name: Publish
-        if: contains(steps.request_release.outputs.result, 'true')
-        run: npm run release
-        env:
-          VER: ${{ steps.release_name.outputs.version }}
-          WEXT_SHIPIT_CHROME_EXTENSION_ID: ${{ secrets.CHROME_EXTENSION_ID }}
-          WEXT_SHIPIT_CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
-          WEXT_SHIPIT_CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
-          WEXT_SHIPIT_CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
-          WEXT_SHIPIT_FIREFOX_JWT_ISSUER: ${{ secrets.JWT_USER }}
-          WEXT_SHIPIT_FIREFOX_JWT_SECRET: ${{ secrets.JWT_SECRET }}
+#       - name: Publish
+#         if: contains(steps.request_release.outputs.result, 'true')
+#         run: npm run release
+#         env:
+#           VER: ${{ steps.release_name.outputs.version }}
+#           WEXT_SHIPIT_CHROME_EXTENSION_ID: ${{ secrets.CHROME_EXTENSION_ID }}
+#           WEXT_SHIPIT_CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
+#           WEXT_SHIPIT_CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
+#           WEXT_SHIPIT_CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
+#           WEXT_SHIPIT_FIREFOX_JWT_ISSUER: ${{ secrets.JWT_USER }}
+#           WEXT_SHIPIT_FIREFOX_JWT_SECRET: ${{ secrets.JWT_SECRET }}
