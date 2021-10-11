@@ -36,7 +36,7 @@
     "csv-parse": "^4.8.8",
     "daily-version": "^2.0.0",
     "dot-json": "^1.2.0",
-    "eslint": "^7.2.0",
+    "eslint": "^8.0.0",
     "eslint-config-standard": "^16.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
